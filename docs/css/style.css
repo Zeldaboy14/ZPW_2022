@@ -140,6 +140,55 @@ body {
 	float:left;
 }
 
+.zztexview img{
+	padding: 0px;
+	width: 400px;
+	padding-left:	0%;
+	padding-right:	150px;
+	float:left;
+}
+
+.zzconvert img{
+	padding: 0px;
+	width: 200px;
+	padding-left:	0%;
+	padding-right:	150px;
+	float:left;
+}
+
+.scrollofeditors img{
+	padding: 0px;
+	width: 600px;
+	padding-left:	0%;
+	padding-right:	150px;
+	float:left;
+}
+
+.zzrt img{
+	padding: 0px;
+	width: 600px;
+	padding-left:	0%;
+	padding-right:	150px;
+	float:left;
+}
+
+.download_images_trainz img{
+	padding: 0px;
+	width: 500px;
+	padding-left:	0%;
+	padding-right:	50px;
+	float:left;
+}
+
+.download_button_trainz	{
+	padding: 180px;
+	width: 0px;
+	padding-left:	63%;
+	padding-right:	0px;
+	position: absolute;
+	font-family:	Splatoon2;
+}
+
 
 .line-1 {
 	height:	5px;
@@ -165,6 +214,13 @@ body {
 	margin-top: 100px;
 	background:	maroon;
 }	
+
+.line-5 {
+	height:	5px;
+	float:center;
+	margin-top: -80px;
+	background:	maroon;
+}
 
 .slider img{
 		float:	left;
@@ -313,3 +369,4 @@ footer {
 }
 
 		a { color: white; }	
+		h1 { font-weight: normal; }
