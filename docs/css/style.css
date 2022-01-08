@@ -14,6 +14,7 @@
 	src:	url(../fonts/Splatfont2.ttf);
 }
 
+
 body {
  background-image: url(../img/backgrounds/PAST_ARCHIVE_SITE_BACKGROUND-TALON_N_THOMAS.jpg); /* Background for the site */
  
@@ -24,9 +25,13 @@ body {
  background-color: rgba(100,100,100,.8); /* Tint color */
  
  background-blend-mode: multiply;	/* Tint for background */
-	margin: 0;
-	padding: 0;
+ 
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
 
+	
 }
 
 .logo img{
@@ -124,6 +129,8 @@ body {
 	float:left;
 }
 
+
+
 .pfp_image img{
 	padding: 80px;
 	width: 200px;
@@ -173,21 +180,43 @@ body {
 }
 
 .download_images_trainz img{
-	padding: 0px;
-	width: 500px;
-	padding-left:	0%;
-	padding-right:	50px;
+	padding: 155px;
+	width: 600px;
+	padding-left:	2%;
+	padding-right:	150px;
 	float:left;
 }
 
+.download_images_gmod img{
+	padding: 50px;
+	width: 300px;
+	padding-left:	0%;
+	padding-right:	80px;
+	padding-bottom:	0px;
+	float:center;
+}
+
+
 .download_button_trainz	{
-	padding: 180px;
+	padding: 250px;
+	font-size: 5;
 	width: 0px;
-	padding-left:	63%;
+	padding-left:	47%;
 	padding-right:	0px;
 	position: absolute;
 	font-family:	Splatoon2;
 }
+
+.download_button_trainz_legacy	{
+	padding: 350px;
+	font-size: 5;
+	width: 0px;
+	padding-left:	47%;
+	padding-right:	0px;
+	position: absolute;
+	font-family:	Splatoon2;
+}
+
 
 
 .line-1 {
@@ -218,7 +247,14 @@ body {
 .line-5 {
 	height:	5px;
 	float:center;
-	margin-top: -80px;
+	margin-top: 0px;
+	background:	maroon;
+}
+
+.line-6 {
+	height:	5px;
+	float:center;
+	margin-top: -100px;
 	background:	maroon;
 }
 
@@ -347,25 +383,18 @@ body {
 		font-size: 30px;
 }
 
-#end {
-		min-height:	100%
-}
-
-#end_main {
-		overflow:	auto;
-		padding-bottom: 50px;
-}
-
 footer {
-    position: relative;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.3;
+    padding: 1rem;
 	font-size: 15px;
-    margin-top: 50px; /* negative value of footer height */
-    height: 30px;
+    margin-top: auto; /* negative value of footer height */
 	font-family:	Raleway-Medium;
     text-align: center;
     color:#FFF;
-    padding-top: 14px;
-    clear:both;
 }
 
 		a { color: white; }	
