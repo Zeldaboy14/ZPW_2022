@@ -60,13 +60,14 @@ footer {
     right: 0;
     bottom: 0;
     left: 0;
+    opacity: 0.8;
     padding: 1rem;
-    opacity: 0.3;
 	font-size: 15px;
     margin-top: auto; /* negative value of footer height */
 	font-family:	Raleway-Medium;
     text-align: center;
     color:#FFF;
+	text-shadow: 1px 1px 2px #000000
 }
 
 		a { color: white; }	
