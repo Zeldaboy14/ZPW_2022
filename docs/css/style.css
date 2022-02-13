@@ -188,11 +188,8 @@ body {
 }
 
 .download_images_gmod img{
-	padding: 50px;
+	margin: 30px;
 	width: 300px;
-	padding-left:	0%;
-	padding-right:	80px;
-	padding-bottom:	0px;
 	float:center;
 }
 
