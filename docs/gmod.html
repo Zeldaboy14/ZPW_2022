@@ -1,93 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-	<meta charset="utf-8">
-	<title>Zeldaboy14 Production Works</title>
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="icon" type="image/x-icon" href="favicon_legacy_2015.ico">
-</head>
+	<head>
+		<meta charset="utf-8">
+		<title>Zeldaboy14 Production Works</title>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="icon" type="image/x-icon" href="favicon_legacy_2015.ico">
+		<script>
+			var entries = [
+				{
+					url: "https://steamcommunity.com/sharedfiles/filedetails/?id=1700197544",
+					img: "img/download_icons/gmod/mk8d_ink_kart.jpg"
+				},
+				{
+					url: "https://steamcommunity.com/sharedfiles/filedetails/?id=2454789034",
+					img: "img/download_icons/gmod/cl_fox_character_icon_gmod.png"
+				},
+				{
+					url: "https://steamcommunity.com/sharedfiles/filedetails/?id=2560244513",
+					img: "img/download_icons/gmod/kensa clip.jpg"
+				},
+				{
+					url: "https://steamcommunity.com/sharedfiles/filedetails/?id=1740570839",
+					img: "img/download_icons/gmod/s2 splatfest tee.png"
+				},
+				{
+					url: "https://steamcommunity.com/sharedfiles/filedetails/?id=2071165147",
+					img: "img/download_icons/gmod/s2_squid_beakon.jpg"
+				},
+				{
+					url: "https://steamcommunity.com/sharedfiles/filedetails/?id=2363430102",
+					img: "img/download_icons/gmod/Gruntillda gmod icon.png"
+				},
+				{
+					url: "https://steamcommunity.com/sharedfiles/filedetails/?id=1544221634",
+					img: "img/download_icons/gmod/splat dualies.jpg"
+				},
+				{
+					url: "https://steamcommunity.com/sharedfiles/filedetails/?id=1459469971",
+					img: "img/download_icons/gmod/splatoon 2 inktank pack.png"
+				},
+				{
+					url: "https://steamcommunity.com/sharedfiles/filedetails/?id=2043932258",
+					img: "img/download_icons/gmod/bombiwa_source_engine.png"
+				},
+				{
+					url: "https://steamcommunity.com/sharedfiles/filedetails/?id=1767347281",
+					img: "img/download_icons/gmod/banjo kazooie gmod.png"
+				},
+				{
+					url: "https://steamcommunity.com/sharedfiles/filedetails/?id=1544092533",
+					img: "img/download_icons/gmod/gmod_splatoon_inklings_model_dl__4779153.png"
+				},
+				{
+					url: "https://steamcommunity.com/sharedfiles/filedetails/?id=1544157176",
+					img: "img/download_icons/gmod/gmod_splatoon_octolind_model_dl__4766634.png"
+				},
+				{
+					url: "https://steamcommunity.com/sharedfiles/filedetails/?id=1544131056",
+					img: "img/download_icons/gmod/squid sis new.png"
+				}
+			]
 
-<body>
-	<div class="wrapper">
-		<div class="banner">
-			<ul class="nav-area">
-				<li>
-					<div class="logo">
-						<img class="logo" src="img/logo/zpw_logo_main.png" alt="ZPW Logo">
-					</div>
-				</li>
+			function onLoad() {
+				var parent = document.getElementById("gmod");
+				entries.forEach(entry => {
+					const wrapper = document.createElement("div");
+					const img = document.createElement("img");
+					img.src = entry.img;
+					img.onclick = (e) => {
+						location.href = entry.url;
+					}
+					wrapper.appendChild(img);
+					parent.appendChild(wrapper);
+				})
+			}
+
+		</script>
+	<script async src='/cdn-cgi/bm/cv/669835187/api.js'></script></head>
+
+	<body onload="onLoad()">
+		<div class="wrapper">
+			<div class="banner">
+				<ul class="nav-area">
+					<li>
+						<div class="logo">
+							<img class="logo" src="img/logo/zpw_logo_main.png" alt="ZPW Logo">
+						</div>
+					</li>
 				<li><a href="index.html">Home</a></li>
 				<li><a href="news.html">News</a></li>
 				<li><a href="trainz_sub.html">Trainz</a></li>
 				<li><a href="source_sub.html">Source Engine</a></li>
 				<li><a href="z64mod.html">Zelda64 Modding</a></li>
 				<li><a href="team.html">The Team</a></li>
+				<li><a href="sites.html">Other Sites</a></li>
 				<li><a href="https://zeldaboy14.github.io/zpw_old/">ZPW Classic</a></li>	
 			</ul>
 		</div>
-	</div>
-	<div class="subcat_text">
-	<h1 style="color: white;font-size:40px;">Gmod</h1>
-
-<!-- GMOD Screenshots with links -->
-
-	<div class="news_text">
-		<li>
-		<div class="line-5"><div>
 		</div>
-	</div>
-	<div class="download_images_gmod">
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1700197544" target="_blank">
-		<img src="img/download_icons/gmod/mk8d_ink_kart.jpg" alt="MK8D - Ink Kart">
-			</a>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2454789034" target="_blank">
-		<img src="img/download_icons/gmod/cl_fox_character_icon_gmod.png" alt="Code Lyoko FoX Characters">
-			</a>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2560244513" target="_blank">
-				<img class="download_images_gmod" src="img/download_icons/gmod/kensa clip.jpg" alt="Chip Clips">
-			</a>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1740570839" target="_blank">
-				<img class="download_images_gmod" src="img/download_icons/gmod/s2 splatfest tee.png" alt="Spla2n Splatfest Tee">
-			</a>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2071165147" target="_blank">
-				<img class="download_images_gmod" src="img/download_icons/gmod/s2_squid_beakon.jpg" alt="Spla2n Squid Beakon">
-			</a>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2363430102" target="_blank">
-				<img class="download_images_gmod" src="img/download_icons/gmod/Gruntillda gmod icon.png" alt="Nuts n Bolts Gruntilda">
-			</a>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1544221634" target="_blank">
-				<img class="download_images_gmod" src="img/download_icons/gmod/splat dualies.jpg" alt="Spla2n Splat Dualies">
-			</a>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1459469971" target="_blank">
-				<img class="download_images_gmod" src="img/download_icons/gmod/splatoon 2 inktank pack.png" alt="Splatoon Inktanks">
-			</a>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2043932258" target="_blank">
-				<img class="download_images_gmod" src="img/download_icons/gmod/bombiwa_source_engine.png" alt="bombiwa.zobj">
-			</a>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1767347281" target="_blank">
-				<img class="download_images_gmod" src="img/download_icons/gmod/banjo kazooie gmod.png" alt="BANJO-KAZOOIE">
-			</a>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1544092533" target="_blank">
-				<img class="download_images_gmod" src="img/download_icons/gmod/gmod_splatoon_inklings_model_dl__4779153.png" alt="Old Inklings">
-			</a>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1544157176" target="_blank">
-				<img class="download_images_gmod" src="img/download_icons/gmod/gmod_splatoon_octolind_model_dl__4766634.png" alt="Old Octolings">
-			</a>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1544131056" target="_blank">
-				<img class="download_images_gmod" src="img/download_icons/gmod/squid sis new.png" alt="Old Squid Sisters">
-			</a>
-	</div>
-	
+		<div class="subcat_text">
+		<h1 style=" text-align: center; color: white;font-size:40px;">Gmod</h1>
 
+	<!-- GMOD Screenshots with links -->
 
-	<div class="footer">
-		  <footer>
-			Zeldaboy14 Production Works &copy; 2013-2022. All copyright goes to their resepective owners
-		  </footer>
-	</div>
- 
-	
+		<div class="news_text">
+			<li>
+			<div class="line-5"><div>
+			</div>
+		</div>
+		<div class="download_images_gmod" id="gmod">
+			<!-- Loaded in runtime -->
+		</div>
+		<div class="footer">
+			<footer>
+				Zeldaboy14 Production Works &copy; 2013-2022. All copyright goes to their resepective owners
+			</footer>
+		</div>
 
-</body>
+	<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6dcb940ddc6cc7b5',m:'rd7j0QaeLGSoyMgN_W15EjhkoyKV.7mmeUcTxcso5yk-1644729320-0-ASHt/qN1MbxPfjtg9fBed88PiUL01Xt2OkJbLOOWjGHfXIIIRWxQXf0hoVXxLK46jb+yTyfPSk+cdHIla7G4tm5JQsk0Og0bo0fVpyvq8jYQ9EXRE1i72hMSS6zjarv93c6FP6LKVuKJFnOYd7ZGwAoYXN3cQe0a8130DW5U2P4LptLbZgqlpn0RHqtbYmX3pg==',s:[0xbf0154ccdb,0x8f5ec0ebf2],}})();</script></body>
 </html>
