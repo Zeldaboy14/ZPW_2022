@@ -1,0 +1,31 @@
+
+<!DOCTYPE HTML>
+<html lang="en-EN">
+	<head>
+		<meta charset="utf-8">
+		<title>Zeldaboy14 Production Works</title>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="icon" type="image/x-icon" href="favicon_legacy_2015.ico">
+			<!--[if lte IE 8]>
+				<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+			<![endif]-->
+		</head>
+	<body>
+
+			
+	<div class="note-text">
+		</div>
+			</li>
+	<h1 style="color: white;font-size:20px;">Flotonic's Notes on Special Banks</h1>
+	<h1 style="color: white;font-size:15px">In the ZSCENE file, there is an 11 Command in the header. The format is as follows:</h1>
+	<h1 style="color: white;font-size:15px">11 XX 00 00 YY 00 0Z 00</h1>
+	<h1 style="color: white;font-size:15px">YY = Sky Box Number</h1>	
+	<h1 style="color: white;font-size:15px">Z = Disable if not 0</h1>	
+	<h1 style="color: white;font-size:15px">XX is MM-only. It says which special bank to use.</h1>	
+	<h1 style="color: white;font-size:15px">Multiply it by 8 and add 0xC58BA0 to it.</h1>	
+	<h1 style="color: white;font-size:15px">Go to that offset in the Decompressed 1.0 Version U MM rom.</h1>	
+	<h1 style="color: white;font-size:15px">The first four bytes at that offset are the start offset of the special bank.</h1>	
+	<h1 style="color: white;font-size:15px">The four bytes that follow those are the end offset of the special bank.</h1>	
+			<li>
+	</body>
+</html>

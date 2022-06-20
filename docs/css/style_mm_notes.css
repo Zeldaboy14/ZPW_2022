@@ -1,0 +1,47 @@
+@font-face	{
+	font-family:	Raleway-Medium;
+	src:	url(../fonts/Raleway-Medium.ttf);
+}
+
+@font-face	{
+	font-family:	Triforce;
+	font-weight:	Normal;
+	src:	url(../fonts/Triforce.ttf);
+}
+
+@font-face	{
+	font-family:	Splatoon2;
+	src:	url(../fonts/Splatfont2.ttf);
+}
+
+
+body {
+ background-image: url(../img/backgrounds/the_talon_nub3.png); /* Background for the site */
+
+ background-attachment: fixed;	/* Controls whether background scrolls */
+ 
+ /*background-repeat: repeat; /* Repeats background on x, y, or both axis */
+
+ background-size: auto%;	/* research */
+
+ background-color: rgba(100,100,100,.8); /* Tint color */
+
+ background-blend-mode: multiply;	/* Tint for background */
+
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+
+
+}
+
+.note-text{
+		position: flex;
+		text-align: center;
+		font-family:	Raleway-Medium;
+		line-height: 0cm;
+		margin-top: 600px;
+		color:#fff;
+		font-size: 15px;
+}

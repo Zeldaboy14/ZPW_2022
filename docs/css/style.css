@@ -19,8 +19,10 @@ body {
  background-image: url(../img/backgrounds/the_talon_nub3.png); /* Background for the site */
 
  background-attachment: fixed;	/* Controls whether background scrolls */
+ 
+ /*background-repeat: repeat; /* Repeats background on x, y, or both axis */
 
- background-size: cover;	/* research */
+ background-size: auto%;	/* research */
 
  background-color: rgba(100,100,100,.8); /* Tint color */
 
