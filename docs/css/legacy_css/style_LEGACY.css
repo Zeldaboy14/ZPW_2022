@@ -1,0 +1,226 @@
+@font-face	{
+	src:	url(fonts/Splatfont2.ttf);
+	src:	url(fonts/Raleway-Medium.ttf);
+	src:	url(fonts/Triforce.ttf);
+}
+
+body {
+ background-image: url(../img/backgrounds/henrycgibridge.jpg); /* Background for the site */
+ 
+ background-attachment: fixed;	/* Controls whether background scrolls */
+ 
+ background-size: cover;	/* research */
+ 
+ background-color: rgba(100,100,100,.8); /* Tint color */
+ 
+ background-blend-mode: multiply;	/* Tint for background */
+
+}
+
+.logo img{
+		width:	160px;
+		float:	top;
+		padding-left:	20%;
+		padding-top:	0%;
+		margin-top: -3px;
+}
+
+
+.banner img{
+		float:	left;
+		width:	300;
+		margin-top: -136px;
+		width:	100%;
+}
+
+.nav-area{
+	float:center;
+	list-style: none;
+	margin-top: -55px;	
+	padding-right:	0px;
+	padding-left:	30%;
+	font-family:	Splatfont2;
+	
+}
+
+
+.nav-area li{
+		display: inline-block;
+
+}
+
+.nav-area li a{
+		color: white;
+		background:	maroon;
+		text-decoration: none;
+		padding: 3px 17px;
+		font-size: 18px
+}
+
+.nav-area li a:hover{
+	background:	teal;	
+	color: white;
+}
+
+.nav-sub{
+	text-align: center;
+	margin: 23% 0%;
+	margin-top: 120px;	
+	padding-right:	0px;
+	padding-left:	0%;
+	font-family:	Splatfont2;
+	
+}
+
+.nav-sub li{
+		display: inline-block;
+
+}
+
+.nav-sub li a{
+		color: white;
+		background:	maroon;
+		text-decoration: none;
+		padding: 0px 17px;
+		font-size: 18px
+}
+
+.nav-sub li a:hover{
+	background:	teal;	
+	color: white;
+}
+
+.slider img{
+		float:	left;
+		margin-top: 50px;
+		padding-left:	25%;
+		width:	50%;
+		display: block;
+		position: absolute;
+		
+		animation-timing-function: ease-in-out;
+		animation-duration: 30s;
+
+}
+
+.image1
+{
+		animation: fade1 infinite;
+}
+
+.image2
+{
+		animation: fade2 infinite;
+}
+
+.image3
+{
+		animation: fade3 infinite;
+}
+
+.image4
+{
+		animation: fade4 infinite;
+}
+
+.image5
+{
+		animation: fade5 infinite;
+}
+
+.image5
+{
+		animation: fade5 infinite;
+}
+
+
+@keyframes fade1
+{
+	0%{opacity: 1;}
+	25%{opacity: 0;}
+	50%{opacity: 0;}
+	75%{opacity: 0;}
+	100%{opacity: 0}
+}
+
+@keyframes fade2
+{
+	0%{opacity: 0;}
+	25%{opacity: 1;}
+	50%{opacity: 0;}
+	75%{opacity: 0;}
+	100%{opacity: 0;}
+}
+
+@keyframes fade3
+{
+	0%{opacity: 0;}
+	25%{opacity: 0;}
+	50%{opacity: 1;}
+	75%{opacity: 0;}
+	100%{opacity: 0;}
+}
+
+@keyframes fade4
+{
+	0%{opacity: 0;}
+	25%{opacity: 0;}
+	50%{opacity: 0;}
+	75%{opacity: 1;}
+	100%{opacity: 0;}
+}
+
+
+
+
+.welcome-text{
+		position: absolute;
+		margin: 3% 30%;
+		text-align: center;
+		padding-left:	10%;
+		font-family:	Triforce;
+		color:#fff;
+		font-size: 10px;		
+}
+
+.subcat_text{
+		position: center;
+		margin: 5% 0%;
+		text-align: center;
+		padding-left:	0%;
+		font-family:	Triforce;
+		color:#fff;
+		font-weight:normal;
+		font-size: 20px;		
+}
+
+.release-text{
+		position: center;
+		text-align: center;
+		font-family:	Raleway-Medium;
+		line-height: .2cm;		
+		margin-top: 700px;
+		color:#fff;
+		font-size: 15px;
+}
+
+#end {
+		min-height:	100%
+}
+
+#end_main {
+		overflow:	auto;
+		padding-bottom: 50px;
+}
+
+footer {
+    position: relative;
+	font-size: 15px;
+    margin-top: -40px; /* negative value of footer height */
+    height: 30px;
+	font-family:	Raleway-Medium;
+    text-align: center;
+    color:#FFF;
+    padding-top: 14px;
+    clear:both;
+}

@@ -16,7 +16,7 @@
 
 
 body {
- background-image: url(../img/backgrounds/the_talon_nub3.png); /* Background for the site */
+ background-image: url(../img/backgrounds/christmas_2020.png); /* Background for the site */
 
  background-attachment: fixed;	/* Controls whether background scrolls */
  
@@ -33,7 +33,6 @@ body {
   padding-bottom: 6rem;
   min-height: 100%;
 
-
 }
 
 .logo img{
@@ -43,7 +42,7 @@ body {
 
 
 .banner {
-	background-image: url("../img/banner/bannertopgeneral.png");
+	background-image: url("../img/banner/bannertopchristmas2020.png");
 	background-size: cover;
 	margin: 0;
 	padding: ;
