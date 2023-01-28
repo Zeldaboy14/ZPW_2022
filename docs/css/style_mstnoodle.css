@@ -524,3 +524,18 @@ body.wm-modal #donato #donato-base {
 .wb-autocomplete-suggestion.selected {
     background: #f0f0f0;
 }
+
+footer {
+
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 1;
+    padding: 1rem;
+	font-size: 15px;
+    margin-top: auto; /* negative value of footer height */
+	font-family:	Raleway-Medium;
+    text-align: center;
+    color:#FFF;
+	text-shadow: 2px 2px 1px #000000FF
+}
