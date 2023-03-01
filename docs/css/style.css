@@ -281,8 +281,8 @@ body {
 		display: block;
 		position: absolute;
 
-		animation-timing-function: ease-in-out;
-		animation-duration: 30s;
+		animation-timing-function: cubic-bez;
+		animation-duration: 15s;
 
 }
 
@@ -304,11 +304,6 @@ body {
 .image4
 {
 		animation: fade4 infinite;
-}
-
-.image5
-{
-		animation: fade5 infinite;
 }
 
 .image5
@@ -351,6 +346,15 @@ body {
 	50%{opacity: 0;}
 	75%{opacity: 1;}
 	100%{opacity: 0;}
+}
+
+@keyframes fade5
+{
+	0%{opacity: 0;}
+	25%{opacity: 0;}
+	50%{opacity: 0;}
+	75%{opacity: 0;}
+	100%{opacity: 1;}
 }
 
 

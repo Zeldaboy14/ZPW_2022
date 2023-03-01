@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Zeldaboy14 Production Works</title>
+	<link rel="stylesheet" href="css/style_slideshow.css">
+	<link rel="icon" type="image/x-icon" href="favicon_legacy_2015.ico">
+	<script type="text/javascript" src="js/snowstorm.js"></script>
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="banner">
+			<ul class="nav-area">
+				<li>
+					<div class="logo">
+						<img class="logo" src="img/logo/zpw_logo_main.png" alt="ZPW Logo">
+					</div>
+				</li>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="news.html">News</a></li>
+				<li><a href="trainz_sub.html">Trainz</a></li>
+				<li><a href="source_sub.html">Source Engine</a></li>
+				<li><a href="z64mod.html">Zelda64 Modding</a></li>
+				<li><a href="team.html">The Team</a></li>
+				<li><a href="sites.html">Other Sites</a></li>
+				<li><a href="https://old.zeldaboy14productionworks.com/">ZPW Classic</a></li>	
+			</ul>
+		</div>
+	</div>
+	<div class="welcome-text">
+	<h1 style="color: white;">Welcome to Zeldaboy14 Production Works!</h1>
+	<h1 style="color: white;">Happily running for 10 long years!</h1>	
+		</div>
+		
+	<!-- Slideshow container -->
+<div class="slideshow-container">
+
+	<!-- Full-width images with number and caption text -->
+	<!-- <div class="mySlides fade">
+		<img src="img/slideshow/zoomv3.png" style="width:100%">
+	</div>
+
+	<div class="mySlides fade">
+		<img src="img/slideshow/final_traveler.png" style="width:100%">
+	</div>
+
+	<div class="mySlides fade">
+		<img src="img/slideshow/gary_steals_intelligence.png" style="width:100%">
+	</div> -->
+	
+	<div class="mySlides fade">
+		<img src="img/slideshow/cl_fox_promo.png" style="width:100%">
+	</div>
+	
+	<div class="mySlides fade">
+		<img src="img/slideshow/sawing.png" style="width:100%">
+	</div>
+	
+	<div class="mySlides fade">
+		<img src="img/slideshow/intel2.png" style="width:100%">
+	</div>	
+	
+	<div class="mySlides fade">
+		<img src="img/slideshow/talon_timetravel.png" style="width:100%">
+	</div>	
+	
+	<div class="mySlides fade">
+		<img src="img/slideshow/fireplace.png" style="width:100%">
+	</div>
+	
+
+		<!-- Next and previous buttons -->
+		<!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>-->
+</div>
+	<br>
+
+	<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 4000); // Change image every 2 seconds
+}
+</script>
+
+	<div class="release-text">
+	<h1 style=" text-align: center; color: cyan;font-size:30px;">Some audio. Try me!</h1>
+	
+	<audio controls>
+	<source src="files/music/Spirit Tracks - Overworld (Jup8).mp3" type="audio/mp3">
+	Your browser does not support the audio element.
+	</audio>
+	
+   </div id="end">
+		<div id="end_main">
+		
+		</div>
+ </div>
+
+	<div class="footer">
+        <footer>
+			Zeldaboy14 Production Works &copy; 2013-2023. All copyright goes to their resepective owners
+        </footer>
+	   </div id="end">
+ 
+<!--[if IE 6]>
+<script type="text/javascript" src="http://shapeshed.github.com/ie6-notice/ie6notice-1.0.0.min.js"></script>
+<![endif]-->
+
+</body>
+</html>

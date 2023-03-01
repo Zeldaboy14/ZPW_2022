@@ -3,13 +3,36 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Zeldaboy14 Production Works</title>
+	<title>Zeldaboy14 Production Works - Trainz Routes (Old)</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="icon" type="image/x-icon" href="favicon_legacy_2015.ico">
 	<script type="text/javascript" src="js/snowstorm.js"></script>
-</head>
+	<script>
+		var entries = [
+			{
+				url: "files/trainz/routes/A Forest Test Trainz 2006 SP1 Edition.cdp",
+				img: "img/download_icons/trainz/routes/aft_2006_sp1.png"
+			}
+		]
 
-<body>
+		function onLoad() {
+			var parent = document.getElementById("gmod");
+			entries.forEach(entry => {
+				const wrapper = document.createElement("div");
+				const img = document.createElement("img");
+				img.src = entry.img;
+				img.onclick = (e) => {
+					location.href = entry.url;
+				}
+				wrapper.appendChild(img);
+				parent.appendChild(wrapper);
+			})
+		}
+
+	</script>
+	<script async src='/cdn-cgi/bm/cv/669835187/api.js'></script></head>
+
+	<body onload="onLoad()">
 	<div class="wrapper">
 		<div class="banner">
 			<ul class="nav-area">
@@ -31,38 +54,23 @@
 	</div>
 	<div class="subcat_text">
 	<h1 style="color: white;font-size:40px;">Trainz Routes</h1>
-	<!--  <h1 style="color: white;font-size:20px;">For legacy engines, click <a href="legacy_trainz_engines.html">here</a></h1>
+	<h1 style="color: white;font-size:20px;">For the old version of this page, click <a href="trainz_routes_oldpage.html">here</a></h1>
 
-<!-- A Forest Test 2006 -->
+	<!-- GMOD Screenshots with links -->
 
-	<div class="news_text">
-		<li>
-		<div class="line-5"><div>
-			<div class="download_images_trainz">
-				<img class="download_images_trainz" src="img/download_icons/trainz/routes/A Forest Test TRS2006.png" alt="">
-			</div>
-		</li>
-		<div class="download_button_trainz">
-	<h1 style="color: white;"><a href="files/trainz/routes/A Forest Test Trainz 2006 SP1 Edition.cdp">Download.</a></h1>
-	</div>
-		<li>
+		<div class="news_text">
+			<li>
+			<div class="line-5"><div>
 			</div>
 		</div>
-	</div>
-	
-<!-- A Forest Test 2006 end -->
-	
-	<div id="end_main">
-		
-	</div>
+		<div class="download_images_gmod" id="gmod">
+			<!-- Loaded in runtime -->
+		</div>
+		<div class="footer">
+			<footer>
+				Zeldaboy14 Production Works &copy; 2013-2023. All copyright goes to their resepective owners
+			</footer>
+		</div>
 
-	<div class="footer">
-		  <footer>
-			Zeldaboy14 Production Works &copy; 2013-2023. All copyright goes to their resepective owners
-		  </footer>
-	</div id="end">
- 
-	
-
-</body>
+	<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6dcb940ddc6cc7b5',m:'rd7j0QaeLGSoyMgN_W15EjhkoyKV.7mmeUcTxcso5yk-1644729320-0-ASHt/qN1MbxPfjtg9fBed88PiUL01Xt2OkJbLOOWjGHfXIIIRWxQXf0hoVXxLK46jb+yTyfPSk+cdHIla7G4tm5JQsk0Og0bo0fVpyvq8jYQ9EXRE1i72hMSS6zjarv93c6FP6LKVuKJFnOYd7ZGwAoYXN3cQe0a8130DW5U2P4LptLbZgqlpn0RHqtbYmX3pg==',s:[0xbf0154ccdb,0x8f5ec0ebf2],}})();</script></body>
 </html>

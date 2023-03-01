@@ -1,23 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-	<meta charset="utf-8">
-	<title>Zeldaboy14 Production Works</title>
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="icon" type="image/x-icon" href="favicon_legacy_2015.ico">
-	<script type="text/javascript" src="js/snowstorm.js"></script>
-</head>
+	<head>
+		<meta charset="utf-8">
+		<title>Zeldaboy14 Production Works - New Engine Testpage</title>
+		<meta name="description" content="Trainz Models for 2004 and up!">
+		<meta name="keywords" content="Trainz, Thomas, SI3D">
+		<meta name="author" content="Zeldaboy14">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="icon" type="image/x-icon" href="favicon_legacy_2015.ico">
+		<script type="text/javascript" src="js/snowstorm.js"></script>
+		<script>
+			var entries = [
+				{
+					url: "files/trainz/engines/Thomas the Tank Engine (MSTS MSTNoodle Port).cdp",
+					img: "img/download_icons/trainz/engines/thomas_msts_mstnoodle_2004.png"
+				},				
+				{
+					url: "files/trainz/engines/Gordon the Big Engine CGI (TV SHOW OFFICIAL).cdp",
+					img: "img/download_icons/trainz/engines/gordon_tane.png"
+				},
+				{
+					url: "files/trainz/engines/Murdoch the Quiet Engine 2018.cdp",
+					img: "img/download_icons/trainz/engines/murdoch_2009.png"
+				},
+				{
+					url: "files/trainz/engines/Casey Jr the Circus Engine 2019.cdp",
+					img: "img/download_icons/trainz/engines/casey_jr_2009.png"
+				},
+				{
+					url: "files/trainz/engines/Handcart (Banjo Tooie).cdp",
+					img: "img/download_icons/trainz/engines/handcart_2009.png"
+				},
+				{
+					url: "files/trainz/engines/Hank the American Engine V2.cdp",
+					img: "img/download_icons/trainz/engines/hank_2009.png"
+				},
+				{
+					url: "files/trainz/engines/CGI EDWARD WoT.7z",
+					img: "img/download_icons/trainz/engines/cgi_edward_wot_2009.png"
+				},
+				{
+					url: "files/trainz/engines/CGI HENRY WoT.7z",
+					img: "img/download_icons/trainz/engines/cgi_henry_wot_2009.png"
+				},
+				{
+					url: "files/trainz/engines/The Talon + Sign.cdp",
+					img: "img/download_icons/trainz/engines/talon_2009.png"
+				},
+				{
+					url: "files/trainz/engines/Wooden Train TRS2004.cdp",
+					img: "img/download_icons/trainz/engines/st_woodentrain_2004.png"
+				},
+				{
+					url: "files/trainz/engines/Spirit Tracks Trolley.cdp",
+					img: "img/download_icons/trainz/engines/st_trolley_2004.png"
+				},
+				{
+					url: "files/trainz/engines/Duck 2009_V2.7z",
+					img: "img/download_icons/trainz/engines/duck_baked_si3d_2009.png"
+				}
+			]
 
-<body>
-	<div class="wrapper">
-		<div class="banner">
-			<ul class="nav-area">
-				<li>
-					<div class="logo">
-						<img class="logo" src="img/logo/zpw_logo_main.png" alt="ZPW Logo">
-					</div>
-				</li>
+			function onLoad() {
+				var parent = document.getElementById("gmod");
+				entries.forEach(entry => {
+					const wrapper = document.createElement("div");
+					const img = document.createElement("img");
+					img.src = entry.img;
+					img.onclick = (e) => {
+						location.href = entry.url;
+					}
+					wrapper.appendChild(img);
+					parent.appendChild(wrapper);
+				})
+			}
+
+		</script>
+	<script async src='/cdn-cgi/bm/cv/669835187/api.js'></script></head>
+
+	<body onload="onLoad()">
+		<div class="wrapper">
+			<div class="banner">
+				<ul class="nav-area">
+					<li>
+						<div class="logo">
+							<img class="logo" src="img/logo/zpw_logo_main.png" alt="ZPW Logo">
+						</div>
+					</li>
 				<li><a href="index.html">Home</a></li>
 				<li><a href="news.html">News</a></li>
 				<li><a href="trainz_sub.html">Trainz</a></li>
@@ -28,210 +98,28 @@
 				<li><a href="https://old.zeldaboy14productionworks.com/">ZPW Classic</a></li>	
 			</ul>
 		</div>
-	</div>
-	<div class="subcat_text">
-	<h1 style="color: white;font-size:40px;">Trainz Engines</h1>
+		</div>
+		<div class="subcat_text">
+		<h1 style=" text-align: center; color: white;font-size:40px;">Trainz Engines</h1>
+	<h1 style="color: white;font-size:20px;">For the old version of this page, click <a href="trainz_engines_oldpage.html">here</a></h1>
 	<h1 style="color: white;font-size:20px;">For legacy engines, click <a href="legacy_trainz_engines.html">here</a></h1>
 	<h1 style="color: white;font-size:20px;">For MSTNoodle/UKBL content, click <a href="more_thomas_the_tank_modes.html">here</a></h1>
 
-<!-- Gordon -->
+	<!-- GMOD Screenshots with links -->
 
-	<div class="news_text">
-		<li>
-		<div class="line-5"><div>
-			<div class="download_images_trainz">
-				<img class="download_images_trainz" src="img/download_icons/trainz/engines/GORDON_THE_BIG_ENGINE_CGI_TV_OFFICIAL.png" alt="">
-			</div>
-		</li>
-		<div class="download_button_trainz">
-	<h1 style="color: white;"><a href="files/trainz/engines/Gordon the Big Engine CGI (TV SHOW OFFICIAL).cdp">Download.</a></h1>
-	</div>
-		<li>
+		<div class="news_text">
+			<li>
+			<div class="line-5"><div>
 			</div>
 		</div>
-	</div>
-	
-<!-- Murdoch -->
-
-	<div class="news_text">
-		<li>
-		<div class="line-5"><div>
-			<div class="download_images_trainz">
-				<img class="download_images_trainz" src="img/download_icons/trainz/engines/MURDOCHTHEQUIETENGINE.png" alt="">
-			</div>
-		</li>
-		<div class="download_button_trainz">
-	<h1 style="color: white;"><a href="files/trainz/engines/Murdoch the Quiet Engine 2018.cdp">Download.</a></h1>
-	</div>
-		<li>
-			</div>
+		<div class="download_images_gmod" id="gmod">
+			<!-- Loaded in runtime -->
 		</div>
-	</div>
-	
-<!-- Casey JR -->
-
-	<div class="news_text">
-		<li>
-		<div class="line-6"><div>
-			<div class="download_images_trainz">
-				<img class="download_images_trainz" src="img/download_icons/trainz/engines/Casey Jr 2019 icon.png" alt="">
-			</div>
-		</li>
-		<div class="download_button_trainz">
-	<h1 style="color: white;"><a href="files/trainz/engines/Casey Jr the Circus Engine 2019.cdp">Download.</a></h1>
-	</div>
-		<li>
-			</div>
+		<div class="footer">
+			<footer>
+				Zeldaboy14 Production Works &copy; 2013-2023. All copyright goes to their resepective owners
+			</footer>
 		</div>
-	</div>
-	
-<!-- Handcart -->
 
-	<div class="news_text">
-		<li>
-		<div class="line-6"><div>
-			<div class="download_images_trainz">
-				<img class="download_images_trainz" src="img/download_icons/trainz/engines/Handcart-Banjo-Tooie.png" alt="">
-			</div>
-		</li>
-		<div class="download_button_trainz">
-	<h1 style="color: white;"><a href="files/trainz/engines/Handcart (Banjo Tooie).cdp">Download.</a></h1>
-	</div>
-		<li>
-			</div>
-		</div>
-	</div>
-	
-<!-- Hank -->
-
-	<div class="news_text">
-		<li>
-		<div class="line-6"><div>
-			<div class="download_images_trainz">
-				<img class="download_images_trainz" src="img/download_icons/trainz/engines/HANKTHEMERICAN.png" alt="">
-			</div>
-		</li>
-		<div class="download_button_trainz">
-	<h1 style="color: white;"><a href="files/trainz/engines/Hank the American Engine V2.cdp">Download.</a></h1>
-	</div>
-		<li>
-			</div>
-		</div>
-	</div>
-	
-<!-- Edward (WOT) -->
-
-	<div class="news_text">
-		<li>
-		<div class="line-6"><div>
-			<div class="download_images_trainz">
-				<img class="download_images_trainz" src="img/download_icons/trainz/engines/cgi_edward_wot.png" alt="">
-			</div>
-		</li>
-		<div class="download_button_trainz">
-	<h1 style="color: white;"><a href="files/trainz/engines/CGI EDWARD WoT.7z">Download.</a></h1>
-	</div>
-		<li>
-			</div>
-		</div>
-	</div>
-	
-<!-- Henry (WOT) -->
-
-	<div class="news_text">
-		<li>
-		<div class="line-6"><div>
-			<div class="download_images_trainz">
-				<img class="download_images_trainz" src="img/download_icons/trainz/engines/cgi_henry_wot.png" alt="">
-			</div>
-		</li>
-		<div class="download_button_trainz">
-	<h1 style="color: white;"><a href="files/trainz/engines/CGI HENRY WoT.7z">Download.</a></h1>
-	</div>
-		<li>
-			</div>
-		</div>
-	</div>
-	
-<!-- Talon -->
-
-	<div class="news_text">
-		<li>
-		<div class="line-6"><div>
-			<div class="download_images_trainz">
-				<img class="download_images_trainz" src="img/download_icons/trainz/engines/Stethalos-The-Talon.png" alt="">
-			</div>
-		</li>
-		<div class="download_button_trainz">
-	<h1 style="color: white;"><a href="files/trainz/engines/The Talon + Sign.cdp">Download.</a></h1>
-	</div>
-		<li>
-			</div>
-		</div>
-	</div>
-	
-<!-- Wooden Train -->
-
-	<div class="news_text">
-		<li>
-		<div class="line-6"><div>
-			<div class="download_images_trainz">
-				<img class="download_images_trainz" src="img/download_icons/trainz/engines/WOODENTRAIN.png" alt="">
-			</div>
-		</li>
-		<div class="download_button_trainz">
-	<h1 style="color: white;"><a href="files/trainz/engines/Wooden Train TRS2004.cdp">Download.</a></h1>
-	</div>
-		<li>
-			</div>
-		</div>
-	</div>
-	
-<!-- Trolley (ST) -->
-
-	<div class="news_text">
-		<li>
-		<div class="line-6"><div>
-			<div class="download_images_trainz">
-				<img class="download_images_trainz" src="img/download_icons/trainz/engines/trolley_spirit_tracks.png" alt="">
-			</div>
-		</li>
-		<div class="download_button_trainz">
-	<h1 style="color: white;"><a href="files/trainz/engines/Spirit Tracks Trolley.cdp">Download.</a></h1>
-	</div>
-		<li>
-			</div>
-		</div>
-	</div>
-	
-<!-- Duck -->
-
-	<div class="news_text">
-		<li>
-		<div class="line-6"><div>
-			<div class="download_images_trainz">
-				<img class="download_images_trainz" src="img/download_icons/trainz/engines/si3d_09_duck.png" alt="">
-			</div>
-		</li>
-		<div class="download_button_trainz">
-	<h1 style="color: white;"><a href="files/trainz/engines/Duck 2009.7z">Download.</a></h1>
-	</div>
-		<li>
-			</div>
-		</div>
-	</div>
-	
-	<div id="end_main">
-		
-	</div>
-
-	<div class="footer">
-		  <footer>
-			Zeldaboy14 Production Works &copy; 2013-2023. All copyright goes to their resepective owners
-		  </footer>
-	</div id="end">
- 
-	
-
-</body>
+	<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6dcb940ddc6cc7b5',m:'rd7j0QaeLGSoyMgN_W15EjhkoyKV.7mmeUcTxcso5yk-1644729320-0-ASHt/qN1MbxPfjtg9fBed88PiUL01Xt2OkJbLOOWjGHfXIIIRWxQXf0hoVXxLK46jb+yTyfPSk+cdHIla7G4tm5JQsk0Og0bo0fVpyvq8jYQ9EXRE1i72hMSS6zjarv93c6FP6LKVuKJFnOYd7ZGwAoYXN3cQe0a8130DW5U2P4LptLbZgqlpn0RHqtbYmX3pg==',s:[0xbf0154ccdb,0x8f5ec0ebf2],}})();</script></body>
 </html>

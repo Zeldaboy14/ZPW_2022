@@ -1,0 +1,427 @@
+@font-face	{
+	font-family:	Raleway-Medium;
+	src:	url(../fonts/Raleway-Medium.ttf);
+}
+
+@font-face	{
+	font-family:	Triforce;
+	font-weight:	Normal;
+	src:	url(../fonts/Triforce.ttf);
+}
+
+@font-face	{
+	font-family:	Splatoon2;
+	src:	url(../fonts/Splatfont2.ttf);
+}
+
+
+body {
+ background-image: url(../img/backgrounds/4muskateers.jpg); /* Background for the site */
+
+ background-attachment: fixed;	/* Controls whether background scrolls */
+ 
+ /*background-repeat: repeat; /* Repeats background on x, y, or both axis */
+
+ background-size: auto%;	/* research */
+
+ background-color: rgba(100,100,100,.8); /* Tint color */
+
+ background-blend-mode: multiply;	/* Tint for background */
+
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+
+}
+
+.logo img{
+	width: 200px;
+	display: inline-block;
+}
+
+
+.banner {
+	background-image: url("../img/banner/bannertopgeneral.png");
+	background-size: cover;
+	margin: 0;
+	padding: ;
+}
+
+.wrapper {
+	margin: 0;
+	padding: 0;
+}
+
+.nav-area{
+	float:center;
+	list-style: none;
+	font-family:	Splatoon2;
+	padding: 3px;
+	vertical-align: center;
+	width: 63%;
+	margin: 0 auto;
+}
+
+
+.nav-area li{
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 10px;
+}
+
+.nav-area li a{
+		color: white;
+		background:	maroon;
+		text-decoration: none;
+		padding: 3px 17px;
+		font-size: 18px
+}
+
+.nav-area li a:hover{
+	background:	teal;
+	color: white;
+}
+
+.nav-sub{
+	text-align: center;
+	margin: 23% 0%;
+	margin-top: 120px;
+	padding-right:	0px;
+	padding-left:	0%;
+	font-family:	Splatoon2;
+
+}
+
+.nav-sub li{
+		display: inline-block;
+
+}
+
+.nav-sub li a{
+		color: white;
+		background:	maroon;
+		text-decoration: none;
+		padding: 0px 17px;
+		font-size: 18px
+}
+
+.nav-sub li a:hover{
+	background:	teal;
+	color: white;
+}
+.news_text{
+	float:left;
+	font-weight:normal;
+	list-style: none;
+	font-family:	Splatoon2;
+	padding: 50px;
+	padding-left:	20%;
+	width: 63%;
+	margin: 0 center;
+	font-size: 10px
+}
+
+.news_image img{
+	padding: 18px;
+	width: 200px;
+	padding-left:	10%;
+	padding-right:	150px;
+	float:left;
+}
+
+
+
+.pfp_image img{
+	padding: 80px;
+	width: 200px;
+	padding-left:	10%;
+	padding-right:	150px;
+	float:left;
+}
+
+.download_images img{
+	padding: 70px;
+	width: 500px;
+	padding-left:	0%;
+	padding-right:	150px;
+	float:left;
+}
+
+.zztexview img{
+	padding: 0px;
+	width: 400px;
+	padding-left:	0%;
+	padding-right:	150px;
+	float:left;
+}
+
+.zzconvert img{
+	padding: 0px;
+	width: 200px;
+	padding-left:	0%;
+	padding-right:	150px;
+	float:left;
+}
+
+.scrollofeditors img{
+	padding: 0px;
+	width: 600px;
+	padding-left:	0%;
+	padding-right:	150px;
+	float:left;
+}
+
+.zzrt img{
+	padding: 0px;
+	width: 600px;
+	padding-left:	0%;
+	padding-right:	150px;
+	float:left;
+}
+
+.download_images_trainz img{
+	padding: 155px;
+	width: 600px;
+	padding-left:	2%;
+	padding-right:	150px;
+	float:left;
+}
+
+.download_images_gmod {
+	display: flex;
+	justify-content: center;
+	max-width: 100%;
+	flex-wrap: wrap;
+	margin: auto;
+}
+
+.download_images_gmod img{
+	margin: 30px;
+	width: 300px;
+	float:center;
+	user-select: none;
+	transition: 200ms linear all;
+}
+
+.download_images_gmod img:hover {
+	opacity: 0.7;
+	cursor: pointer;
+	transform: scale(1.1)
+}
+
+.download_button_trainz	{
+	padding: 250px;
+	font-size: 5;
+	width: 0px;
+	padding-left:	47%;
+	padding-right:	0px;
+	position: absolute;
+	font-family:	Splatoon2;
+	text-shadow: 2px 2px 1px #000000FF
+}
+
+.download_button_trainz_legacy	{
+	padding: 350px;
+	font-size: 5;
+	width: 0px;
+	padding-left:	47%;
+	padding-right:	0px;
+	position: absolute;
+	font-family:	Splatoon2;
+	text-shadow: 2px 2px 1px #000000FF
+}
+
+
+
+.line-1 {
+	height:	5px;
+	float:absoulte;
+	margin-top: 200px;
+	background:	maroon;
+}
+
+.line-2 {
+	height:	3px;
+	background:	limegreen;
+}
+
+.line-3 {
+	height:	5px;
+	float:center;
+	background:	maroon;
+}
+
+.line-4 {
+	height:	5px;
+	float:center;
+	margin-top: 100px;
+	background:	maroon;
+}
+
+.line-5 {
+	height:	5px;
+	float:center;
+	margin-top: 0px;
+	background:	maroon;
+}
+
+.line-6 {
+	height:	5px;
+	float:center;
+	margin-top: -100px;
+	background:	maroon;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+
+}
+
+@keyframes fade {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
+
+
+
+.welcome-text{
+		position: flex;
+		margin: 1% 20%;
+		text-align: center;
+		font-family:	Triforce;
+		color:#fff;
+		font-size: 10px;
+
+}
+
+.subcat_text{
+		color: white;
+		position: center;
+		margin: 5% 0%;
+		text-align: center;
+		padding-left:	0%;
+		font-family:	Triforce;
+		color:#fff;
+		font-weight:	normal;
+		font-size: 20px;
+}
+
+.release-text{
+		position: flex;
+		text-align: center;
+		font-family:	Raleway-Medium;
+		line-height: 0cm;
+		margin-top: 100px;
+		color:#fff;
+		font-size: 15px;
+}
+
+.release-text2{
+		position: center;
+		text-align: center;
+		font-family:	Splatoon2;
+		line-height: .5cm;
+		margin-top: 100px;
+		color:#fff;
+		font-size: 30px;
+}
+
+footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.8;
+    padding: 1rem;
+	font-size: 15px;
+    margin-top: auto; /* negative value of footer height */
+	font-family:	Raleway-Medium;
+    text-align: center;
+    color:#FFF;
+	text-shadow: 2px 2px 1px #000000FF
+}
+
+
+		a { color: white; }	
+		h1 { font-weight: normal; }
