@@ -16,13 +16,13 @@
 
 
 body {
- background-image: url(../img/backgrounds/4muskateers.jpg); /* Background for the site */
+ background-image: url(../img/backgrounds/PAST_ARCHIVE_SITE_BACKGROUND-AFRSTTEST_SHEDS.jpg); /* Background for the site */
 
  background-attachment: fixed;	/* Controls whether background scrolls */
  
  /*background-repeat: repeat; /* Repeats background on x, y, or both axis */
 
- background-size: auto%;	/* research */
+ background-size: cover;	/* research */
 
  background-color: rgba(100,100,100,.8); /* Tint color */
 
@@ -42,7 +42,7 @@ body {
 
 
 .banner {
-	background-image: url("../img/banner/bannertopgeneral.png");
+	background-image: url("../img/banner/bannertopgeneral_evening_new.png");
 	background-size: cover;
 	margin: 0;
 	padding: ;

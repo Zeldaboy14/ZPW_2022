@@ -1,23 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-	<meta charset="utf-8">
-	<title>Zeldaboy14 Production Works</title>
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="icon" type="image/x-icon" href="favicon_legacy_2015.ico">
-	<script type="text/javascript" src="js/snowstorm.js"></script>
-</head>
+	<head>
+		<meta charset="utf-8">
+		<title>Zeldaboy14 Production Works - Trainz Rolling Stock</title>
+		<meta name="description" content="Trainz Models for 2004 and up!">
+		<meta name="keywords" content="Trainz, Thomas, SI3D">
+		<meta name="author" content="Zeldaboy14">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="icon" type="image/x-icon" href="favicon_legacy_2015.ico">
+		<script type="text/javascript" src="js/snowstorm.js"></script>
+		<script>
+			var entries = [
+				{
+					url: "files/trainz/rolling_stock/2009_V1_Annie_Clarabel_R1.cdp",
+					img: "img/download_icons/trainz/rolling_stock/annie_clarabel.png"
+				},				
+				{
+					url: "files/trainz/rolling_stock/Blueberry_Wafflecar 2010.cdp",
+					img: "img/download_icons/trainz/rolling_stock/blueberry_wafflecar.png"
+				},				
+				{
+					url: "files/trainz/rolling_stock/RCW VIA Coachs.cdp",
+					img: "img/download_icons/trainz/rolling_stock/via_coachs.png"
+				},
+			]
 
-<body>
-	<div class="wrapper">
-		<div class="banner">
-			<ul class="nav-area">
-				<li>
-					<div class="logo">
-						<img class="logo" src="img/logo/zpw_logo_main.png" alt="ZPW Logo">
-					</div>
-				</li>
+			function onLoad() {
+				var parent = document.getElementById("gmod");
+				entries.forEach(entry => {
+					const wrapper = document.createElement("div");
+					const img = document.createElement("img");
+					img.src = entry.img;
+					img.onclick = (e) => {
+						location.href = entry.url;
+					}
+					wrapper.appendChild(img);
+					parent.appendChild(wrapper);
+				})
+			}
+
+		</script>
+	<script async src='/cdn-cgi/bm/cv/669835187/api.js'></script></head>
+
+	<body onload="onLoad()">
+		<div class="wrapper">
+			<div class="banner">
+				<ul class="nav-area">
+					<li>
+						<div class="logo">
+							<img class="logo" src="img/logo/zpw_logo_main.png" alt="ZPW Logo">
+						</div>
+					</li>
 				<li><a href="index.html">Home</a></li>
 				<li><a href="news.html">News</a></li>
 				<li><a href="trainz_sub.html">Trainz</a></li>
@@ -28,55 +62,26 @@
 				<li><a href="https://old.zeldaboy14productionworks.com/">ZPW Classic</a></li>	
 			</ul>
 		</div>
-	</div>
-	<div class="subcat_text">
-	<h1 style="color: white;font-size:40px;">Trainz Rolling Stock</h1>
+		</div>
+		<div class="subcat_text">
+		<h1 style=" text-align: center; color: white;font-size:40px;">Trainz Rolling Stock</h1>
+	<h1 style="color: white;font-size:20px;">For the old version of this page, click <a href="trainz_rolling_stock_oldpage.html">here</a></h1>
 
-<!-- VIA Coachs -->
+	<!-- GMOD Screenshots with links -->
 
-	<div class="news_text">
-		<li>
-		<div class="line-5"><div>
-			<div class="download_images_trainz">
-				<img class="download_images_trainz" src="img/download_icons/trainz/rolling_stock/via_coachs.png" alt="">
-			</div>
-		</li>
-		<div class="download_button_trainz">
-	<h1 style="color: white;"><a href="files/trainz/rolling_stock/RCW VIA Coachs.cdp">Download.</a></h1>
-	</div>
-		<li>
+		<div class="news_text">
+			<li>
+			<div class="line-5"><div>
 			</div>
 		</div>
-	</div>
-	
-<!-- Blueberry Wafflecar -->
-
-	<div class="news_text">
-		<li>
-		<div class="line-6"><div>
-			<div class="download_images_trainz">
-				<img class="download_images_trainz" src="img/download_icons/trainz/rolling_stock/blueberry_wafflecar.png" alt="">
-			</div>
-		</li>
-		<div class="download_button_trainz">
-	<h1 style="color: white;"><a href="files/trainz/rolling_stock/Blueberry_Wafflecar 2010.cdp">Download.</a></h1>
-	</div>
-		<li>
-			</div>
+		<div class="download_images_gmod" id="gmod">
+			<!-- Loaded in runtime -->
 		</div>
-	</div>
-	
-	<div id="end_main">
-		
-	</div>
+		<div class="footer">
+			<footer>
+				Zeldaboy14 Production Works &copy; 2013-2023. All copyright goes to their resepective owners
+			</footer>
+		</div>
 
-	<div class="footer">
-		  <footer>
-			Zeldaboy14 Production Works &copy; 2013-2023. All copyright goes to their resepective owners
-		  </footer>
-	</div id="end">
- 
-	
-
-</body>
+	<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6dcb940ddc6cc7b5',m:'rd7j0QaeLGSoyMgN_W15EjhkoyKV.7mmeUcTxcso5yk-1644729320-0-ASHt/qN1MbxPfjtg9fBed88PiUL01Xt2OkJbLOOWjGHfXIIIRWxQXf0hoVXxLK46jb+yTyfPSk+cdHIla7G4tm5JQsk0Og0bo0fVpyvq8jYQ9EXRE1i72hMSS6zjarv93c6FP6LKVuKJFnOYd7ZGwAoYXN3cQe0a8130DW5U2P4LptLbZgqlpn0RHqtbYmX3pg==',s:[0xbf0154ccdb,0x8f5ec0ebf2],}})();</script></body>
 </html>
