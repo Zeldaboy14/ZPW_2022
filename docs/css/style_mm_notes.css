@@ -16,7 +16,7 @@
 
 
 body {
- background-image: url(../img/backgrounds/christmas_2020.png); /* Background for the site */
+ background-image: url(../img/backgrounds/dk64_minecart.png); /* Background for the site */
 
  background-attachment: fixed;	/* Controls whether background scrolls */
  
@@ -32,7 +32,6 @@ body {
   margin: 0;
   padding-bottom: 6rem;
   min-height: 100%;
-
 
 }
 
