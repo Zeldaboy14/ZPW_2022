@@ -111,10 +111,16 @@
 			<!-- Loaded in runtime -->
 		</div>
 		<div class="footer">
-			<footer>
-				Zeldaboy14 Production Works &copy; 2013-2023. All copyright goes to their resepective owners
+			<footer id="footer">
+				<script>
+					document.addEventListener('DOMContentLoaded', function() {
+						var footer = document.getElementById('footer');
+						var year = new Date().getFullYear();
+						footer.innerHTML = `Zeldaboy14 Production Works &copy; 2013-${year}. All copyright goes to their resepective owners`;
+					});
+				</script>
 			</footer>
-		</div>
+		</div id="end">
 
 	<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6dcb940ddc6cc7b5',m:'rd7j0QaeLGSoyMgN_W15EjhkoyKV.7mmeUcTxcso5yk-1644729320-0-ASHt/qN1MbxPfjtg9fBed88PiUL01Xt2OkJbLOOWjGHfXIIIRWxQXf0hoVXxLK46jb+yTyfPSk+cdHIla7G4tm5JQsk0Og0bo0fVpyvq8jYQ9EXRE1i72hMSS6zjarv93c6FP6LKVuKJFnOYd7ZGwAoYXN3cQe0a8130DW5U2P4LptLbZgqlpn0RHqtbYmX3pg==',s:[0xbf0154ccdb,0x8f5ec0ebf2],}})();</script></body>
 </html>

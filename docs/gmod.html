@@ -10,64 +10,28 @@
 		<script>
 			var entries = [
 				{
-					url: "https://steamcommunity.com/sharedfiles/filedetails/?id=2854142628",
-					img: "img/download_icons/gmod/TRICOLORPACK_g.png"
-				},
-				{				
-					url: "https://steamcommunity.com/sharedfiles/filedetails/?id=2852415982",
-					img: "img/download_icons/gmod/cuddlefish_eye_pack_gmod.png"
-				},
-				{				
-					url: "https://steamcommunity.com/sharedfiles/filedetails/?id=1700197544",
-					img: "img/download_icons/gmod/mk8d_ink_kart.jpg"
+					url: "files/source_engine/gmod/floor_switchs.7z",
+					img: "img/download_icons/gmod/stand/floor_switch.png"
 				},
 				{
-					url: "https://steamcommunity.com/sharedfiles/filedetails/?id=2454789034",
+					url: "files/source_engine/gmod/Lord_of_Games_GMOD.7z",
+					img: "img/download_icons/gmod/stand/lord_of_games.png"
+				},
+				{
+					url: "files/source_engine/gmod/code_lyoko_fall_of_x_a_n_a_character_pack_9180.zip",
 					img: "img/download_icons/gmod/cl_fox_character_icon_gmod.png"
 				},
 				{
-					url: "https://steamcommunity.com/sharedfiles/filedetails/?id=2560244513",
-					img: "img/download_icons/gmod/kensa clip.jpg"
-				},
-				{
-					url: "https://steamcommunity.com/sharedfiles/filedetails/?id=1740570839",
-					img: "img/download_icons/gmod/s2 splatfest tee.png"
-				},
-				{
-					url: "https://steamcommunity.com/sharedfiles/filedetails/?id=2071165147",
-					img: "img/download_icons/gmod/s2_squid_beakon.jpg"
-				},
-				{
-					url: "https://steamcommunity.com/sharedfiles/filedetails/?id=2363430102",
+					url: "files/source_engine/gmod/gruntilda_bk_nab_10330.zip",
 					img: "img/download_icons/gmod/Gruntillda gmod icon.png"
 				},
 				{
-					url: "https://steamcommunity.com/sharedfiles/filedetails/?id=1544221634",
-					img: "img/download_icons/gmod/splat dualies.jpg"
-				},
-				{
-					url: "https://steamcommunity.com/sharedfiles/filedetails/?id=1459469971",
-					img: "img/download_icons/gmod/splatoon 2 inktank pack.png"
-				},
-				{
-					url: "https://steamcommunity.com/sharedfiles/filedetails/?id=2043932258",
+					url: "files/source_engine/gmod/ocarina_of_time_bombiwa_21090.zip",
 					img: "img/download_icons/gmod/bombiwa_source_engine.png"
 				},
 				{
-					url: "https://steamcommunity.com/sharedfiles/filedetails/?id=1767347281",
+					url: "files/source_engine/gmod/banjo_kazooie_19270.zip",
 					img: "img/download_icons/gmod/banjo kazooie gmod.png"
-				},
-				{
-					url: "https://steamcommunity.com/sharedfiles/filedetails/?id=1544092533",
-					img: "img/download_icons/gmod/gmod_splatoon_inklings_model_dl__4779153.png"
-				},
-				{
-					url: "https://steamcommunity.com/sharedfiles/filedetails/?id=1544157176",
-					img: "img/download_icons/gmod/gmod_splatoon_octolind_model_dl__4766634.png"
-				},
-				{
-					url: "https://steamcommunity.com/sharedfiles/filedetails/?id=1544131056",
-					img: "img/download_icons/gmod/squid sis new.png"
 				}
 			]
 
@@ -110,7 +74,8 @@
 		</div>
 		<div class="subcat_text">
 		<h1 style=" text-align: center; color: white;font-size:40px;">Garry's Mod</h1>
-		<h1 style=" text-align: center; color: white;font-size:20px;">Standalone Releases? Click <a href="gmod_stand.html">here</a></li></h1>
+		<!--<h1 style=" text-align: center; color: white;font-size:20px;">Standalone Releases? Click <a href="gmod_stand.html">here</a></li></h1>-->
+		<h1 style=" text-align: center; color: white;font-size:20px;"><a href="splatarchive_index.html">Splat Archive in prograss. Bear with me...</a></li></h1>
 
 	<!-- GMOD Screenshots with links -->
 
@@ -122,11 +87,17 @@
 		<div class="download_images_gmod" id="gmod">
 			<!-- Loaded in runtime -->
 		</div>
-		<div class="footer">
-			<footer>
-				Zeldaboy14 Production Works &copy; 2013-2023. All copyright goes to their resepective owners
-			</footer>
-		</div>
+	<div class="footer">
+        <footer id="footer">
+			<script>
+				document.addEventListener('DOMContentLoaded', function() {
+					var footer = document.getElementById('footer');
+					var year = new Date().getFullYear();
+					footer.innerHTML = `Zeldaboy14 Production Works &copy; 2013-${year}. All copyright goes to their resepective owners`;
+				});
+			</script>
+        </footer>
+	   </div id="end">
 
 	<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6dcb940ddc6cc7b5',m:'rd7j0QaeLGSoyMgN_W15EjhkoyKV.7mmeUcTxcso5yk-1644729320-0-ASHt/qN1MbxPfjtg9fBed88PiUL01Xt2OkJbLOOWjGHfXIIIRWxQXf0hoVXxLK46jb+yTyfPSk+cdHIla7G4tm5JQsk0Og0bo0fVpyvq8jYQ9EXRE1i72hMSS6zjarv93c6FP6LKVuKJFnOYd7ZGwAoYXN3cQe0a8130DW5U2P4LptLbZgqlpn0RHqtbYmX3pg==',s:[0xbf0154ccdb,0x8f5ec0ebf2],}})();</script></body>
 </html>

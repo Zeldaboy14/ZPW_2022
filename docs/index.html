@@ -49,7 +49,7 @@
 	
 	<audio controls>
 	<source src="files/music/The Trials of Lapuini (Title Theme).mp3" type="audio/mp3">
-	Your browser does not support the audio element.
+	Oh nyo! Your browser does not support the audio element.
 	</audio>
 	
    </div id="end">
@@ -59,10 +59,17 @@
  </div>
 
 	<div class="footer">
-        <footer>
-			Zeldaboy14 Production Works &copy; 2013-2023. All copyright goes to their resepective owners
+        <footer id="footer">
+			<script>
+				document.addEventListener('DOMContentLoaded', function() {
+					var footer = document.getElementById('footer');
+					var year = new Date().getFullYear();
+					footer.innerHTML = `Zeldaboy14 Production Works &copy; 2013-${year}. All copyright goes to their resepective owners`;
+				});
+			</script>
         </footer>
 	   </div id="end">
+	   
  
 <!--[if IE 6]>
 <script type="text/javascript" src="http://shapeshed.github.com/ie6-notice/ie6notice-1.0.0.min.js"></script>

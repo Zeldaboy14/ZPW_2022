@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Zeldaboy14 Production Works - Splatsource Archive (Garry's Mod)</title>
+		<meta name="description" content="The Splatoon Archive for enhanced stuff!">
+		<meta name="keywords" content="Gmod, Source Engine, Splatoon">
+		<link rel="stylesheet" href="css/style_spltsrc_index.css">
+		<link rel="icon" type="image/x-icon" href="favicon_legacy_2015.ico">
+		<script type="text/javascript" src="js/snowstorm.js"></script>
+		<script>
+
+			var entries = [
+				{
+					url: "files/source_engine/gmod/splat_archive/two_point_o_extras.zip",
+					img: "img/download_icons/gmod/splat_archive/icons/ENHANCED_EXTRAS_g.png"
+				},				
+				{
+					url: "files/source_engine/gmod/splat_archive/enhanced_octo_two_point_o.7z",
+					img: "img/download_icons/gmod/splat_archive/icons/ENHANCED_OCTOLINGS_2_FINAL_g.png"
+				},
+				{
+					url: "files/source_engine/gmod/splat_archive/enhanced_ink_two_point_o.7z",
+					img: "img/download_icons/gmod/splat_archive/icons/ENHANCED_INKLING_2_FINAL_g.png"
+				},
+				{
+					url: "files/source_engine/gmod/splat_archive/octarians_7890635760.zip",
+					img: "img/download_icons/gmod/splat_archive/icons/the_octarians_g.jpg"
+				},
+				{
+					url: "files/source_engine/gmod/splat_archive/splatoon_full_shoes_pack_9065109000.zip",
+					img: "img/download_icons/gmod/splat_archive/icons/full_shoes_pack_g.jpg"
+				},
+				{
+					url: "files/source_engine/gmod/splat_archive/splatoon_full_clothes_pack_8043877050.zip",
+					img: "img/download_icons/gmod/splat_archive/icons/full_clothes_pack_g.jpg"
+				},
+				{
+					url: "files/source_engine/gmod/splat_archive/splatoon_full_hats_pack_8896811480.zip",
+					img: "img/download_icons/gmod/splat_archive/icons/full_hats_pack_g.jpg"
+				},
+				{
+					url: "files/source_engine/gmod/splat_archive/splatoon_3_tri_gear_starter_pack_6400.zip",
+					img: "img/download_icons/gmod/splat_archive/icons/full_hats_pack_smf_ver_g.jpg"
+				},
+				{
+					url: "files/source_engine/gmod/splat_archive/splatoon_3_tri_gear_starter_pack_6400.zip",
+					img: "img/download_icons/gmod/splat_archive/icons/enhanced_inklings.jpg"
+				},
+				{
+					url: "files/source_engine/gmod/splat_archive/splatoon_3_tri_gear_starter_pack_6400.zip",
+					img: "img/download_icons/gmod/TRICOLORPACK_g.png"
+				},
+				{				
+					url: "files/source_engine/gmod/splat_archive/cuttlefish_eye_pack_eyelids_5370.zip",
+					img: "img/download_icons/gmod/cuddlefish_eye_pack_gmod.png"
+				},
+				{				
+					url: "files/source_engine/gmod/splat_archive/mario_kart_8_deluxe_inkling_karts_2500.zip",
+					img: "img/download_icons/gmod/mk8d_ink_kart.jpg"
+				},
+				{
+					url: "files/source_engine/gmod/splat_archive/splatoon_2_kensa_clips_12210.zip",
+					img: "img/download_icons/gmod/kensa clip.jpg"
+				},
+				{
+					url: "files/source_engine/gmod/splat_archive/splatoon_2_splatfest_tee_450.zip",
+					img: "img/download_icons/gmod/s2 splatfest tee.png"
+				},
+				{
+					url: "files/source_engine/gmod/splat_archive/splatoon_2_squid_beakon_11490.zip",
+					img: "img/download_icons/gmod/s2_squid_beakon.jpg"
+				},
+				{
+					url: "files/source_engine/gmod/splat_archive/splatoon_2_splat_dualies_5050.zip",
+					img: "img/download_icons/gmod/splat dualies.jpg"
+				},
+				{
+					url: "files/source_engine/gmod/splat_archive/splatoon_inktank_pack_9140.zip",
+					img: "img/download_icons/gmod/splatoon 2 inktank pack.png"
+				},
+				{
+					url: "files/source_engine/gmod/splat_archive/inklings_reuploaded_1220.zip",
+					img: "img/download_icons/gmod/gmod_splatoon_inklings_model_dl__4779153.png"
+				},
+				{
+					url: "files/source_engine/gmod/splat_archive/oldoctoling.zip",
+					img: "img/download_icons/gmod/gmod_splatoon_octolind_model_dl__4766634.png"
+				},
+				{
+					url: "files/source_engine/gmod/splat_archive/squid_sisters_reuploaded_2200.zip",
+					img: "img/download_icons/gmod/squid sis new.png"
+				}
+			]
+
+			function onLoad() {
+				var parent = document.getElementById("gmod");
+				entries.forEach(entry => {
+					const wrapper = document.createElement("div");
+					const img = document.createElement("img");
+					img.src = entry.img;
+					img.onclick = (e) => {
+						location.href = entry.url;
+					}
+					wrapper.appendChild(img);
+					parent.appendChild(wrapper);
+				})
+			}
+
+		</script>
+
+	</script></head>
+
+	<body onload="onLoad()">
+		<div class="wrapper">
+			<div class="banner">
+				<ul class="nav-area">
+					<img class="logo_splt" src="img/logo/spltsrc_archive.png" alt="Splatsource Archive">
+			</ul>
+		</div>
+		</div>
+		<div class="subcat_text">
+	<!-- GMOD Screenshots with links -->
+
+		<div class="news_text">
+			<li>
+			<div class="line-5"><div>
+			</div>
+		</div>
+		<div class="download_images_gmod" id="gmod">
+			<!-- Loaded in runtime -->
+		</div>
+	<div class="footer">
+        <footer id="footer">
+			<script>
+				document.addEventListener('DOMContentLoaded', function() {
+					var footer = document.getElementById('footer');
+					var year = new Date().getFullYear();
+					footer.innerHTML = `Zeldaboy14 Production Works &copy; 2013-${year}. All copyright goes to their resepective owners`;
+				});
+			</script>
+        </footer>
+	   </div id="end">
+
+	<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6dcb940ddc6cc7b5',m:'rd7j0QaeLGSoyMgN_W15EjhkoyKV.7mmeUcTxcso5yk-1644729320-0-ASHt/qN1MbxPfjtg9fBed88PiUL01Xt2OkJbLOOWjGHfXIIIRWxQXf0hoVXxLK46jb+yTyfPSk+cdHIla7G4tm5JQsk0Og0bo0fVpyvq8jYQ9EXRE1i72hMSS6zjarv93c6FP6LKVuKJFnOYd7ZGwAoYXN3cQe0a8130DW5U2P4LptLbZgqlpn0RHqtbYmX3pg==',s:[0xbf0154ccdb,0x8f5ec0ebf2],}})();</script></body>
+</html>

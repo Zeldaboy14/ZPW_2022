@@ -1,0 +1,429 @@
+@font-face	{
+	font-family:	Raleway-Medium;
+	src:	url(../fonts/Raleway-Medium.ttf);
+}
+
+@font-face	{
+	font-family:	Triforce;
+	font-weight:	Normal;
+	src:	url(../fonts/Triforce.ttf);
+}
+
+@font-face	{
+	font-family:	Splatoon2;
+	src:	url(../fonts/Splatfont2.ttf);
+}
+
+
+body {
+ background-image: url(../img/backgrounds/sacred_grove.png); /* Background for the site */
+
+ background-attachment: fixed;	/* Controls whether background scrolls */
+ 
+ /*background-repeat: repeat; /* Repeats background on x, y, or both axis */
+
+ background-size: cover;	/* research */
+
+ background-color: rgba(100,100,100,.8); /* Tint color */
+
+ background-blend-mode: multiply;	/* Tint for background */
+
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+
+}
+
+.logo img{
+	float:left;
+	width: 200px;
+	display: inline-block;
+}
+
+.logo_splt{
+	margin: 0 auto;
+	vertical-align: middle;
+	width: 1250px;
+}
+
+
+.banner {
+	background-image: url("../img/banner/bannertopgeneral_evening_new.png");
+	background-size: cover;
+	margin: 0;
+	padding: ;
+}
+
+.wrapper {
+	margin: 0;
+	padding: 0;
+}
+
+.nav-area{
+	float:center;
+	list-style: none;
+	font-family:	Splatoon2;
+	padding: 3px;
+	vertical-align: center;
+	width: 63%;
+	margin: 0 auto;
+}
+
+
+.nav-area li{
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 10px;
+}
+
+.nav-area li a{
+		color: white;
+		background:	maroon;
+		text-decoration: none;
+		padding: 3px 17px;
+		font-size: 18px
+}
+
+.nav-area li a:hover{
+	background:	teal;
+	color: white;
+}
+
+.nav-sub{
+	text-align: center;
+	margin: 23% 0%;
+	margin-top: 120px;
+	padding-right:	0px;
+	padding-left:	0%;
+	font-family:	Splatoon2;
+
+}
+
+.nav-sub li{
+		display: inline-block;
+
+}
+
+.nav-sub li a{
+		color: white;
+		background:	maroon;
+		text-decoration: none;
+		padding: 0px 17px;
+		font-size: 18px
+}
+
+.nav-sub li a:hover{
+	background:	teal;
+	color: white;
+}
+.news_text{
+	float:left;
+	font-weight:normal;
+	list-style: none;
+	font-family:	Splatoon2;
+	padding: 50px;
+	padding-left:	20%;
+	width: 63%;
+	margin: 0 center;
+	font-size: 10px
+}
+
+.news_image img{
+	padding: 18px;
+	width: 200px;
+	padding-left:	10%;
+	padding-right:	150px;
+	float:left;
+}
+
+
+
+.pfp_image img{
+	padding: 80px;
+	width: 200px;
+	padding-left:	10%;
+	padding-right:	150px;
+	float:left;
+}
+
+.download_images img{
+	padding: 70px;
+	width: 500px;
+	padding-left:	0%;
+	padding-right:	150px;
+	float:left;
+}
+
+.zztexview img{
+	padding: 0px;
+	width: 400px;
+	padding-left:	0%;
+	padding-right:	150px;
+	float:left;
+}
+
+.zzconvert img{
+	padding: 0px;
+	width: 200px;
+	padding-left:	0%;
+	padding-right:	150px;
+	float:left;
+}
+
+.scrollofeditors img{
+	padding: 0px;
+	width: 600px;
+	padding-left:	0%;
+	padding-right:	150px;
+	float:left;
+}
+
+.zzrt img{
+	padding: 0px;
+	width: 600px;
+	padding-left:	0%;
+	padding-right:	150px;
+	float:left;
+}
+
+.download_images_trainz img{
+	padding: 155px;
+	width: 600px;
+	padding-left:	2%;
+	padding-right:	150px;
+	float:left;
+}
+
+.download_images_gmod {
+	display: flex;
+	justify-content: center;
+	max-width: 100%;
+	flex-wrap: wrap;
+	margin: auto;
+}
+
+.download_images_gmod img{
+	margin: 30px;
+	width: 300px;
+	float:center;
+	user-select: none;
+	transition: 200ms linear all;
+}
+
+.download_images_gmod img:hover {
+	opacity: 0.7;
+	cursor: pointer;
+	transform: scale(1.1)
+}
+
+.download_button_trainz	{
+	padding: 250px;
+	font-size: 5;
+	width: 0px;
+	padding-left:	47%;
+	padding-right:	0px;
+	position: absolute;
+	font-family:	Splatoon2;
+	text-shadow: 2px 2px 1px #000000FF
+}
+
+.download_button_trainz_legacy	{
+	padding: 350px;
+	font-size: 5;
+	width: 0px;
+	padding-left:	47%;
+	padding-right:	0px;
+	position: absolute;
+	font-family:	Splatoon2;
+	text-shadow: 2px 2px 1px #000000FF
+}
+
+
+
+.line-1 {
+	height:	5px;
+	float:absoulte;
+	margin-top: 200px;
+	background:	maroon;
+}
+
+.line-2 {
+	height:	3px;
+	background:	limegreen;
+}
+
+.line-3 {
+	height:	5px;
+	float:center;
+	background:	maroon;
+}
+
+.line-4 {
+	height:	5px;
+	float:center;
+	margin-top: 100px;
+	background:	maroon;
+}
+
+.line-5 {
+	height:	5px;
+	float:center;
+	margin-top: 0px;
+	background:	maroon;
+}
+
+.line-6 {
+	height:	5px;
+	float:center;
+	margin-top: -100px;
+	background:	maroon;
+}
+
+.slider img{
+		float:	left;
+		margin-top: 0px;
+		padding-left:	25%;
+		width:	50%;
+		display: block;
+		position: absolute;
+
+		animation-timing-function: cubic-bez;
+		animation-duration: 15s;
+
+}
+
+.image1
+{
+		animation: fade1 infinite;
+}
+
+.image2
+{
+		animation: fade2 infinite;
+}
+
+.image3
+{
+		animation: fade3 infinite;
+}
+
+.image4
+{
+		animation: fade4 infinite;
+}
+
+.image5
+{
+		animation: fade5 infinite;
+}
+
+
+@keyframes fade1
+{
+	0%{opacity: 1;}
+	25%{opacity: 0;}
+	50%{opacity: 0;}
+	75%{opacity: 0;}
+	100%{opacity: 0}
+}
+
+@keyframes fade2
+{
+	0%{opacity: 0;}
+	25%{opacity: 1;}
+	50%{opacity: 0;}
+	75%{opacity: 0;}
+	100%{opacity: 0;}
+}
+
+@keyframes fade3
+{
+	0%{opacity: 0;}
+	25%{opacity: 0;}
+	50%{opacity: 1;}
+	75%{opacity: 0;}
+	100%{opacity: 0;}
+}
+
+@keyframes fade4
+{
+	0%{opacity: 0;}
+	25%{opacity: 0;}
+	50%{opacity: 0;}
+	75%{opacity: 1;}
+	100%{opacity: 0;}
+}
+
+@keyframes fade5
+{
+	0%{opacity: 0;}
+	25%{opacity: 0;}
+	50%{opacity: 0;}
+	75%{opacity: 0;}
+	100%{opacity: 1;}
+}
+
+
+
+
+.welcome-text{
+		position: flex;
+		margin: 1% 20%;
+		text-align: center;
+		font-family:	Triforce;
+		color:#fff;
+		font-size: 10px;
+
+}
+
+.subcat_text{
+		color: white;
+		position: center;
+		margin: 5% 0%;
+		text-align: center;
+		padding-left:	0%;
+		font-family:	Triforce;
+		color:#fff;
+		font-weight:	normal;
+		font-size: 20px;
+}
+
+.release-text{
+		position: flex;
+		text-align: center;
+		font-family:	Raleway-Medium;
+		line-height: 0cm;
+		margin-top: 600px;
+		color:#fff;
+		font-size: 15px;
+}
+
+.release-text2{
+		position: center;
+		text-align: center;
+		font-family:	Splatoon2;
+		line-height: .5cm;
+		margin-top: 100px;
+		color:#fff;
+		font-size: 30px;
+}
+
+footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.8;
+    padding: 1rem;
+	font-size: 15px;
+    margin-top: auto; /* negative value of footer height */
+	font-family:	Raleway-Medium;
+    text-align: center;
+    color:#FFF;
+	text-shadow: 2px 2px 1px #000000FF
+}
+
+
+		a { color: white; }	
+		h1 { font-weight: normal; }
