@@ -16,7 +16,7 @@
 
 
 body {
- background-image: url(../img/backgrounds/beta_gerudo_valley.png); /* Background for the site */
+ background-image: url(../img/backgrounds/fungi.png); /* Background for the site */
 
  background-attachment: fixed;	/* Controls whether background scrolls */
  
@@ -400,6 +400,26 @@ body {
 		margin-top: 100px;
 		color:#fff;
 		font-size: 30px;
+}
+
+.release-text3{
+		position: center;
+		text-align: center;
+		font-family:	Splatoon2;
+		line-height: .5cm;
+		margin-top: 100px;
+		color:#fff;
+		font-size: 30px;
+}
+
+.audio-text{
+		position: flex;
+		text-align: center;
+		font-family:	Raleway-Medium;
+		line-height: 0cm;
+		margin-top: 50px;
+		color:#fff;
+		font-size: 15px;
 }
 
 footer {
