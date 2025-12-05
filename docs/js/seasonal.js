@@ -10,7 +10,7 @@ if(date.getMonth() == 0) {
 	document.body.style.backgroundSize="cover";
 	document.body.style.backgroundColor="rgba(100,100,100,.8)";
 	document.body.style.backgroundBlendMode="Multiply";
-	document.getElementsByClassName("logo")[1].src = "img/logo/zpw_2024_christmas.png";
+	document.getElementsByClassName("logo")[1].src = "img/logo/ZPW_2024_christmas.png";
 	const style = document.createElement('style');
 	style.innerHTML = `
 	  .banner {
@@ -47,7 +47,7 @@ if(date.getMonth() == 0) {
 	document.body.style.backgroundSize="cover";
 	document.body.style.backgroundColor="rgba(100,100,100,.8)";
 	document.body.style.backgroundBlendMode="Multiply";
-	document.getElementsByClassName("logo")[1].src = "img/logo/zpw_2024_christmas.png";
+	document.getElementsByClassName("logo")[1].src = "img/logo/ZPW_2024_christmas.png";
 	const style = document.createElement('style');
 	style.innerHTML = `
 	  .banner {
@@ -66,7 +66,7 @@ if(date.getMonth() == 0) {
 	document.body.style.backgroundSize="cover";
 	document.body.style.backgroundColor="rgba(100,100,100,.8)";
 	document.body.style.backgroundBlendMode="Multiply";
-	document.getElementsByClassName("logo")[1].src = "img/logo/zpw_2024_christmas.png";
+	document.getElementsByClassName("logo")[1].src = "img/logo/ZPW_2024_christmas.png";
 	const style = document.createElement('style');
 	style.innerHTML = `
 	  .banner {
@@ -84,7 +84,7 @@ if(date.getMonth() == 0) {
 	document.body.style.backgroundSize="cover";
 	document.body.style.backgroundColor="rgba(100,100,100,.8)";
 	document.body.style.backgroundBlendMode="Multiply";
-	document.getElementsByClassName("logo")[1].src = "img/logo/zpw_2024.png";
+	document.getElementsByClassName("logo")[1].src = "img/logo/ZPW_2024.png";
 	const style = document.createElement('style');
 	style.innerHTML = `
 	  .banner {
