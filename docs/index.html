@@ -2,14 +2,18 @@
 <html lang="en">
 
 <head>
-	<meta charset="utf-8">
+	<meta charset="utf-8", name="viewport" content="width=device-width, initial-scale=1">
 	<title>Zeldaboy14 Production Works - Homepage</title>
 	<meta name="description" content="Homepage for your legacy Trainz Asset stop!">
 	<meta name="keywords" content="Trainz, Thomas, Source Engine, Team Fortress 2, Hylian Modding, Maco64">
 	<meta name="author" content="Zeldaboy14">
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="icon" type="image/x-icon" href="favicon_legacy_2015.ico">
+	<link rel="stylesheet" href="css/style_dropdown.css">
+	<link rel="stylesheet" href="css/style_slideshow.css">
+	<link rel="icon" type="image/x-icon" href="favicon_2025.ico">
 	<script type="text/javascript" src="js/snowstorm.js"></script>
+	<script type="text/javascript" src="js/seasonal.js"></script>
+	<!--<script type="text/javascript" src="js/commit.js"></script>-->
 </head>
 
 <body>
@@ -18,106 +22,149 @@
 			<ul class="nav-area">
 				<li>
 					<div class="logo">
-						<img class="logo" src="img/logo/zpw_logo_main.png" alt="ZPW Logo">
+						<img class="logo">
 					</div>
 				</li>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="news.html">News</a></li>
-				<li><a href="trainz_sub.html">Trainz</a></li>
-				<li><a href="source_sub.html">Source Engine</a></li>
-				<li><a href="z64mod.html">Zelda64 Modding</a></li>
-				<li><a href="team.html">The Team</a></li>
-				<li><a href="sites.html">Other Sites</a></li>
-				<li><a href="https://old.zeldaboy14productionworks.com/">ZPW Classic</a></li>	
+				<div class="dropdown">
+					<a href=" index.html"><button class="dropbtn">Home</button></a>
+				</div>
+				<div class="dropdown">
+					<a href=" news.html"><button class="dropbtn">News</button></a>
+				</div>
+				<div class="dropdown">
+					<a href="category.html"><button class="dropbtn">Trainz</button></a>
+						<div class="dropdown-content">
+							<a href="trainz_engines.html">Engines</a>
+							<a href="trainz_rolling_stock.html">Rolling Stock</a>
+							<a href="trainz_scenery.html">Scenery</a>
+							<a href="trainz_routes.html">Routes</a>
+							<a href="trainz_extras.html">Extras</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<a href="category.html"><button class="dropbtn">Source Engine</button></a>
+						<div class="dropdown-content">
+							<a href="gmod.html">Gmod</a>
+							<a href="sfm.html">Source Filmmaker</a>
+							<a href="tf2.html">Team Fortress 2</a>
+							<a href="hl2.html">Half-Life 2</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<a href="category.html"><button class="dropbtn">Nintendo 64</button></a>
+						<div class="dropdown-content">
+							<a href="z64mod.html">Zelda64</a>
+							<a href="banjo_tooie.html">Banjo-Tooie</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<a href=" team.html"><button class="dropbtn">The Team</button></a>
+				</div>
+				<div class="dropdown">
+					<a href=" sites.html"><button class="dropbtn">Other Sites</button></a>
+				</div>
+				<div class="dropdown">
+					<a href=" https://old.zeldaboy14productionworks.com/"><button class="dropbtn">ZPW Classic</button></a>
+				</div>	
 			</ul>
 		</div>
 	</div>
 	<div class="welcome-text">
 	<h1 style="color: white;">Welcome to Zeldaboy14 Production Works!</h1>
-	<h1 style="color: white;">Your home for Trainz, Gmod/SFM, and much more!</h1>		
+	<h1 style="color: white;">Your home for Trainz, Gmod/SFM, and much more!</h1>	
 		</div>
+	<!--<div class="commit-text">
+	<h1 style="color: white;">Current Git Commit; <pre id="sha">Loading</pre></h1>		
+		</div>-->
 		
-	<div class="slider">
+	<!-- <div class="slider">
 		<img class="image1" src="img/slideshow/tt4_post.png" alt="Banner">
 		<img class="image2" src="img/slideshow/lord_of_games.jpg" alt="Banner">
 		<img class="image3" src="img/slideshow/gruntilda.jpg" alt="Banner">
 		<img class="image4" src="img/slideshow/time_travlin_part2.jpg" alt="Banner">
 		<img class="image5" src="img/slideshow/tt4_post.png" alt="Banner">
-		</div>	
+		</div>	-->
 		
-	<div class="release-text">
-	<h1 style=" text-align: center; color: cyan;font-size:30px;">BT Intro: CL FoX Soundfont</h1>
+	<!--Reminder to my future self.
+	Solve crossfading of images!
+	W3C Schools ver doesn't support that-->
+		
+	<!-- Slideshow container -->
+	<div class="slideshow-container">
+	
+	  <!-- Full-width images with number and caption text -->
+	  <div class="mySlides fade">
+		<div class="numbertext">1 / 6</div>
+		<img src="img/slideshow/tt4_post.png" style="width:100%">
+		<div class="text">Time Travelin 4: Back to the Present!</div>
+	  </div>
+
+	  <div class="mySlides fade">
+		<div class="numbertext">2 / 6</div>
+		<img src="img/slideshow/lord_of_games.jpg" style="width:100%">
+		<div class="text">Raymond gets scared of L.O.G</div>
+	  </div>
+
+	  <div class="mySlides fade">
+		<div class="numbertext">3 / 6</div>
+		<img src="img/slideshow/gruntilda.jpg" style="width:100%">
+		<div class="text">CARZ! (Gruntilda from Nuts and Bolts)</div>
+	  </div>
+	  
+	  <div class="mySlides fade">
+		<div class="numbertext">4 / 6</div>
+		<img src="img/slideshow/the_war.jpg" style="width:100%">
+		<div class="text">The War (poster from 2023)</div>
+	  </div>
+	  
+	  <div class="mySlides fade">
+		<div class="numbertext">5 / 6</div>
+		<img src="img/slideshow/zoomv3.png" style="width:100%">
+		<div class="text">Comon and ZOOM! (2023)</div>
+	  </div>
+	  
+	  <div class="mySlides fade">
+		<div class="numbertext">6 / 6</div>
+		<img src="img/slideshow/pokernightatwallaces.jpg" style="width:100%">
+		<div class="text">Scott Pilgrim VS A Game of Poker (2025)</div>
+	  </div>
+	
+	  <script type="text/javascript" src="js/slideshow.js"></script>
+
+	  <!-- Next and previous buttons -->
+	  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+	  
+	</div>
+	<br>
+		
+	<div class="audio-text">
+	<h1 style=" text-align: center; color: cyan;font-size:30px;">Kurtzweil Zelda Test</h1>
 	
 	<audio controls>
-	<source src="files/music/bt_intro_fox.mp3" type="audio/mp3">
+	<source src="files/music/LA_AWAKENING_Kurtzweil_PC-88_Piano_test.mp3" type="audio/mp3">
 	Oh nyo! Your browser does not support the audio element.
 	</audio>
-	
-	<div class="audio-text">
-	<h1 style=" text-align: center; color: cyan;font-size:30px;">Seibmoz File Select</h1>
-	
-	<audio controls>
-	<source src="files/music/coach_file_select.mp3" type="audio/mp3">
-	Oh nyo! Your browser does not support the audio element.
-	</audio>
-	
-	<div class="audio-text">
-	<h1 style=" text-align: center; color: cyan;font-size:30px;">You got Kamcket</h1>
-	
-	<audio controls>
-	<source src="files/music/You_Got_Kamcket.mp3" type="audio/mp3">
-	Oh nyo! Your browser does not support the audio element.
-	</audio>
-	
-	<div class="audio-text">
-	<h1 style=" text-align: center; color: cyan;font-size:30px;">Brewster selects his Discord Channel</h1>
-	
-	<audio controls>
-	<source src="files/music/brewster_file_select.mp3" type="audio/mp3">
-	Oh nyo! Your browser does not support the audio element.
-	</audio>
-	
-	<div class="audio-text">
-	<h1 style=" text-align: center; color: cyan;font-size:30px;">Saga 2 (FFL2) - Victory Theme OOT CONCEPT</h1>
-	
-	<audio controls>
-	<source src="files/music/saga2_victory.mp3" type="audio/mp3">
-	Oh nyo! Your browser does not support the audio element.
-	</audio>	
-	
-	<div class="audio-text">
-	<h1 style=" text-align: center; color: cyan;font-size:30px;">Song of Time (Bodacious)</h1>
-	
-	<audio controls>
-	<source src="files/music/songoftimevele.mp3" type="audio/mp3">
-	Oh nyo! Your browser does not support the audio element.
-	</audio>	
 	
 	<div class="audio-text">
 	<li><a href="files/Jup8_Files.zip">Jupiter 8 TTTE (and other) Synths</a></li>	
+	<div class="audio-text">
+	
+	<!--<a style="position: fixed;bottom: 10px;right: 10px;z-index: 10;" href="https://tf2maps.net/threads/53258/">
+	<iframe src="https://countdownclock.tf2maps.net/jam/?targetTime=1734368400&amp;TVImage=https://jam.tf2maps.net/img/try2_72.png?&amp;TVColor=lightblue" style="width: 316px;border: none; pointer-events:none">
+	</iframe></a> -->
 	
    </div id="end">
-		<div id="end_main">
+		<!--<div id="end_main">-->
 		
 		</div>
  </div>
-
+	
 	<div class="footer">
         <footer id="footer">
-			<script>
-				document.addEventListener('DOMContentLoaded', function() {
-					var footer = document.getElementById('footer');
-					var year = new Date().getFullYear();
-					footer.innerHTML = `Zeldaboy14 Production Works &copy; 2013-${year}. All copyright goes to their resepective owners`;
-				});
-			</script>
+			<script type="text/javascript" src="js/copyright.js"></script>
         </footer>
 	   </div id="end">
-	   
- 
-<!--[if IE 6]>
-<script type="text/javascript" src="http://shapeshed.github.com/ie6-notice/ie6notice-1.0.0.min.js"></script>
-<![endif]-->
 
 </body>
 </html>

@@ -16,17 +16,17 @@
 
 
 body {
- background-image: url(../img/backgrounds/fungi.png); /* Background for the site */
+ /*background-image: url(../img/backgrounds/fungi.png); /* Background for the site */
 
- background-attachment: fixed;	/* Controls whether background scrolls */
+ /*background-attachment: fixed;	/* Controls whether background scrolls */
  
  /*background-repeat: repeat; /* Repeats background on x, y, or both axis */
 
- background-size: cover;	/* research */
+ /*background-size: cover;	/* research */
 
- background-color: rgba(100,100,100,.8); /* Tint color */
+ /*background-color: rgba(100,100,100,.8); /* Tint color */
 
- background-blend-mode: multiply;	/* Tint for background */
+ /*background-blend-mode: multiply;	/* Tint for background */
 
   position: relative;
   margin: 0;
@@ -204,11 +204,12 @@ body {
 }
 
 footer {
+	background-color: #6f1f1f;
     position: fixed;
     right: 0;
     bottom: 0;
     left: 0;
-    opacity: 0.8;
+    opacity: 0.9;
     padding: 1rem;
 	font-size: 15px;
     margin-top: auto; /* negative value of footer height */

@@ -5,18 +5,20 @@
 		<meta charset="utf-8">
 		<title>Zeldaboy14 Production Works - Garry's Mod Standalone Releases</title>
 		<link rel="stylesheet" href="css/style.css">
-		<link rel="icon" type="image/x-icon" href="favicon_legacy_2015.ico">
+		<link rel="stylesheet" href="css/style_dropdown.css">
+		<link rel="icon" type="image/x-icon" href="favicon_2025.ico">
 		<script type="text/javascript" src="js/snowstorm.js"></script>
+		<script type="text/javascript" src="js/seasonal.js"></script>
 		<script>
 			var entries = [
-				{
+				/*{
 					url: "files/source_engine/gmod/floor_switchs.7z",
 					img: "img/download_icons/gmod/stand/floor_switch.png"
-				},
-				{
+				},*/ /* we don't speak of this one */
+				/*{
 					url: "files/source_engine/gmod/Lord_of_Games_GMOD.7z",
 					img: "img/download_icons/gmod/stand/lord_of_games.png"
-				},
+				},*/ /* we don't speak of this one */ 
 			]
 
 			function onLoad() {
@@ -37,25 +39,58 @@
 	<script async src='/cdn-cgi/bm/cv/669835187/api.js'></script></head>
 
 	<body onload="onLoad()">
-		<div class="wrapper">
-			<div class="banner">
-				<ul class="nav-area">
-					<li>
-						<div class="logo">
-							<img class="logo" src="img/logo/zpw_logo_main.png" alt="ZPW Logo">
-						</div>
-					</li>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="news.html">News</a></li>
-				<li><a href="trainz_sub.html">Trainz</a></li>
-				<li><a href="source_sub.html">Source Engine</a></li>
-				<li><a href="z64mod.html">Zelda64 Modding</a></li>
-				<li><a href="team.html">The Team</a></li>
-				<li><a href="sites.html">Other Sites</a></li>
-				<li><a href="https://old.zeldaboy14productionworks.com/">ZPW Classic</a></li>	
+	<div class="wrapper">
+		<div class="banner">
+			<ul class="nav-area">
+				<li>
+					<div class="logo">
+						<img class="logo">
+					</div>
+				</li>
+				<div class="dropdown">
+					<a href=" index.html"><button class="dropbtn">Home</button></a>
+				</div>
+				<div class="dropdown">
+					<a href=" news.html"><button class="dropbtn">News</button></a>
+				</div>
+				<div class="dropdown">
+					<a href="category.html"><button class="dropbtn">Trainz</button></a>
+						<div class="dropdown-content">
+							<a href="trainz_engines.html">Engines</a>
+							<a href="trainz_rolling_stock.html">Rolling Stock</a>
+							<a href="trainz_scenery.html">Scenery</a>
+							<a href="trainz_routes.html">Routes</a>
+							<a href="trainz_extras.html">Extras</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<a href="category.html"><button class="dropbtn">Source Engine</button></a>
+						<div class="dropdown-content">
+							<a href="gmod.html">Gmod</a>
+							<a href="sfm.html">Source Filmmaker</a>
+							<a href="tf2.html">Team Fortress 2</a>
+							<a href="hl2.html">Half-Life 2</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<a href="category.html"><button class="dropbtn">Nintendo 64</button></a>
+						<div class="dropdown-content">
+							<a href="z64mod.html">Zelda64</a>
+							<a href="banjo_tooie.html">Banjo Tooie</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<a href=" team.html"><button class="dropbtn">The Team</button></a>
+				</div>
+				<div class="dropdown">
+					<a href=" sites.html"><button class="dropbtn">Other Sites</button></a>
+				</div>
+				<div class="dropdown">
+					<a href=" https://old.zeldaboy14productionworks.com/"><button class="dropbtn">ZPW Classic</button></a>
+				</div>	
 			</ul>
 		</div>
-		</div>
+	</div>
 		<div class="subcat_text">
 		<h1 style=" text-align: center; color: white;font-size:40px;">Garry's Mod standalone releases</h1>
 		<h1 style=" text-align: center; color: white;font-size:20px;">These versions may or may not be more up-to-date then steam versions</li></h1>
@@ -72,13 +107,7 @@
 		</div>
 	<div class="footer">
         <footer id="footer">
-			<script>
-				document.addEventListener('DOMContentLoaded', function() {
-					var footer = document.getElementById('footer');
-					var year = new Date().getFullYear();
-					footer.innerHTML = `Zeldaboy14 Production Works &copy; 2013-${year}. All copyright goes to their resepective owners`;
-				});
-			</script>
+			<script type="text/javascript" src="js/copyright.js"></script>
         </footer>
 	   </div id="end">
 

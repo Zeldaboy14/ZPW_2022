@@ -1,0 +1,68 @@
+@font-face	{
+	font-family:	Raleway-Medium;
+	src:	url(../fonts/Raleway-Medium.ttf);
+}
+
+@font-face	{
+	font-family:	Triforce;
+	font-weight:	Normal;
+	src:	url(../fonts/Triforce.ttf);
+}
+
+@font-face	{
+	font-family:	Splatoon2;
+	src:	url(../fonts/Splatfont2.ttf);
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background:	maroon;
+  font-family:	Splatoon2;
+  color: white;
+  padding: 0px 14px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  height: 39px;
+  border: none;
+ 
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 8px;
+}
+
+.dropdown li {
+  background:	maroon;
+  font-family:	Splatoon2;
+  color: white;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #600000;
+  min-width: 140px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  padding: 2px 14px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #AAA;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #008080;}

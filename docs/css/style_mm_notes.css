@@ -3,28 +3,15 @@
 	src:	url(../fonts/Raleway-Medium.ttf);
 }
 
-@font-face	{
-	font-family:	Triforce;
-	font-weight:	Normal;
-	src:	url(../fonts/Triforce.ttf);
-}
-
-@font-face	{
-	font-family:	Splatoon2;
-	src:	url(../fonts/Splatfont2.ttf);
-}
-
 
 body {
  background-image: url(../img/backgrounds/fungi.png); /* Background for the site */
 
  background-attachment: fixed;	/* Controls whether background scrolls */
- 
- /*background-repeat: repeat; /* Repeats background on x, y, or both axis */
 
- background-size: auto%;	/* research */
+ background-size: cover;	/* research */
 
- background-color: rgba(100,100,100,.8); /* Tint color */
+ background-color: rgba(100,100,100,.9); /* Tint color */
 
  background-blend-mode: multiply;	/* Tint for background */
 

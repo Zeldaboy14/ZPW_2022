@@ -14,19 +14,24 @@
 	src:	url(../fonts/Splatfont2.ttf);
 }
 
+@font-face	{
+	font-family:	BoxRocket;
+	src:	url(../fonts/Sboxrocket.ttf);
+}
+
 
 body {
- background-image: url(../img/backgrounds/fungi.png); /* Background for the site */
+ /*background-image: url(../img/backgrounds/fungi.png); /* Background for the site */
 
- background-attachment: fixed;	/* Controls whether background scrolls */
+ /*background-attachment: fixed;	/* Controls whether background scrolls */
  
  /*background-repeat: repeat; /* Repeats background on x, y, or both axis */
 
- background-size: cover;	/* research */
+ /*background-size: cover;	/* research */
 
- background-color: rgba(100,100,100,.8); /* Tint color */
+ /*background-color: rgba(100,100,100,.8); /* Tint color */
 
- background-blend-mode: multiply;	/* Tint for background */
+ /*background-blend-mode: multiply;	/* Tint for background */
 
   position: relative;
   margin: 0;
@@ -36,16 +41,17 @@ body {
 }
 
 .logo img{
+	background-image: url("../img/logo/zpw_logo_main.png" alt="ZPW Logo");
 	width: 200px;
 	display: inline-block;
 }
 
 
 .banner {
-	background-image: url("../img/banner/bannertopgeneral_evening_new.png");
+	/*background-image: url("../img/banner/bannertopgeneral_evening_new.png");*/
 	background-size: cover;
 	margin: 0;
-	padding: ;
+	padding: 0;
 }
 
 .wrapper {
@@ -233,7 +239,6 @@ body {
 }
 
 
-
 .line-1 {
 	height:	5px;
 	float:absoulte;
@@ -273,92 +278,15 @@ body {
 	background:	maroon;
 }
 
-.slider img{
-		float:	left;
-		margin-top: 0px;
-		padding-left:	25%;
-		width:	50%;
-		display: block;
-		position: absolute;
-
-		animation-timing-function: cubic-bez;
-		animation-duration: 15s;
+.commit-text{
+		position: flex;
+		margin: 1% 10%;
+		text-align: center;
+		font-family:	Raleway-Medium;
+		color:#fff;
+		font-size: 8px;
 
 }
-
-.image1
-{
-		animation: fade1 infinite;
-}
-
-.image2
-{
-		animation: fade2 infinite;
-}
-
-.image3
-{
-		animation: fade3 infinite;
-}
-
-.image4
-{
-		animation: fade4 infinite;
-}
-
-.image5
-{
-		animation: fade5 infinite;
-}
-
-
-@keyframes fade1
-{
-	0%{opacity: 1;}
-	25%{opacity: 0;}
-	50%{opacity: 0;}
-	75%{opacity: 0;}
-	100%{opacity: 0}
-}
-
-@keyframes fade2
-{
-	0%{opacity: 0;}
-	25%{opacity: 1;}
-	50%{opacity: 0;}
-	75%{opacity: 0;}
-	100%{opacity: 0;}
-}
-
-@keyframes fade3
-{
-	0%{opacity: 0;}
-	25%{opacity: 0;}
-	50%{opacity: 1;}
-	75%{opacity: 0;}
-	100%{opacity: 0;}
-}
-
-@keyframes fade4
-{
-	0%{opacity: 0;}
-	25%{opacity: 0;}
-	50%{opacity: 0;}
-	75%{opacity: 1;}
-	100%{opacity: 0;}
-}
-
-@keyframes fade5
-{
-	0%{opacity: 0;}
-	25%{opacity: 0;}
-	50%{opacity: 0;}
-	75%{opacity: 0;}
-	100%{opacity: 1;}
-}
-
-
-
 
 .welcome-text{
 		position: flex;
@@ -380,6 +308,31 @@ body {
 		color:#fff;
 		font-weight:	normal;
 		font-size: 20px;
+}
+
+.subcat_text_hl2{
+		color: white;
+		position: center;
+		margin: 5% 0%;
+		text-align: center;
+		padding-left:	0%;
+		font-family:	BoxRocket;
+		color:#fff;
+		font-weight:	normal;
+		font-size: 20px;
+}
+
+.subcat_img{
+		color: white;
+		position: center;
+		text-align: center;
+		margin: 5% 0%;
+		padding-left:	0%;
+		margin-top: 20px;
+		color:#fff;
+		font-family:	Triforce;
+		font-size: 20px;
+		text-decoration: none;
 }
 
 .release-text{
@@ -423,11 +376,12 @@ body {
 }
 
 footer {
+	background-color: #6f1f1f;
     position: fixed;
     right: 0;
     bottom: 0;
     left: 0;
-    opacity: 0.8;
+    opacity: 0.9;
     padding: 1rem;
 	font-size: 15px;
     margin-top: auto; /* negative value of footer height */
@@ -438,5 +392,5 @@ footer {
 }
 
 
-		a { color: white; }	
-		h1 { font-weight: normal; }
+	a { color: white; }	
+	h1 { font-weight: normal; }
